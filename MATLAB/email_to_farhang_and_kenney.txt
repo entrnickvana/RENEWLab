@@ -1,0 +1,19 @@
+
+1. Do I need to be concerned with BW for testing CP-SCM?
+   i. The sampling rate is set to 5 Mhz, in order to preserve the proportion of CP to total samples in a symbol,
+      I would need to increase the sampling rate to transmit at a higher data rate/BW, I quickly reach a limit on the ADC/DAC sampling rates for the, this isn't a problem right, we mostly care about SNR, BER and PAPR measurments
+      lime chips (LM7002M: ADC sampling rate 160 Mhz, DAC sampling rate 640 Mhz
+   ii. Am I going to run into selective fading because of wider bandwidth symbols?
+2. What is the appropriate pilot structure, I have read papers about lts used a for cyclic prefix "Training sequence versus cyclic prefix-a new look on single carrier communication"
+   i. If pilot carriers are used to correct phase offset in OFDM schemes, what do I use
+      in their place for single carrier?
+
+
+% Without FEC
+5e6 smps/sec * (48 * 4 bits / 64 + 16 smps) = 12,000 kbps = 12 Mbps
+5e6 smps/sec * (4 bits / 64  + 16smps) = 250 kbps
+
+0.2 us * 80 smps * 4bits = 250 kbps
+
+
+      
