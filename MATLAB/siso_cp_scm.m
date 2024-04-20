@@ -23,6 +23,8 @@ freq = 0:fs/N:fs-(1/fs);
 freq_one = freq(1:N/2+1);
 freq_one(2:end-1);
 
+%% Time Domain Generation of CPSCM
+
 
 %% Smmoth Payload vec to identify bandwidth
 
@@ -54,11 +56,13 @@ sym6 = ifft(fdd_mat(:,6));
 % each frequency window for ofdm is 64 samples long, modulated by its own distinct carrier
 % 
 
+
+
 % gen more complex random signals
 order1= 16;
 M = sqrt(order1);
 tx_scm = (randi(M, 1, length(tx_syms)) - (M+1)/2) + i*(randi(M, 1, length(tx_syms)) - (M+1)/2);
-tx_scm_vec = repelem(tx_scm, 8);
+tx_scm_vec = repelem(tx_scm, 16);
 
 fs_scm = 5e6;
 N_scm = length(tx_scm_vec);
@@ -82,7 +86,6 @@ fdd_scm_syms_up = circshift(upsample(fdd_scm_syms, sub_C),1);
 fdd_scm_mat = reshape(fdd_scm_syms_up, sub_C, sub_N);
 tdd_scm_mat = ifft(fdd_scm_syms, sub_C, 1);
 tdd_scm_vec = reshape(tdd_scm_mat, 1, sub_C*length(tdd_scm_mat(1,:)));
-
 
 fs_cpscm = 5e6;
 N_cpscm = length(tdd_scm_vec);
