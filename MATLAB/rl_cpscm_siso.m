@@ -49,7 +49,7 @@ WRITE_PNG_FILES         = 0;            % Enable writing plots to PNG
 PLOT                    = 1;
 FIND_OPTIMAL_GAINS      = 0;            % Evaluates different TX/RX gain combinations and returns the combination that yields the largest number of detected beacons
 SIM_MODE                = 1;            % Enable for AWGN sim, disable to run hardware
-APPLY_CFO_CORRECTION    = 0;
+APPLY_CFO_CORRECTION    = 1;
 
 %Iris params:
 N_BS_NODE               = 1;
@@ -89,7 +89,7 @@ N_ZPAD_POST             = nan;                                    % (defined bel
 
 % Rx processing params
 FFT_OFFSET                    = 0;          % Number of CP samples to use in FFT (on average)
-DO_APPLY_PHASE_ERR_CORRECTION = 1;           % Enable Residual CFO estimation/correction
+DO_APPLY_PHASE_ERR_CORRECTION = 0;           % Enable Residual CFO estimation/correction
 
 %% Define the preamble
 
@@ -102,20 +102,26 @@ preamble = [lts_t(33:64) lts_t lts_t];
 
 %% Generate a payload of random integers
 tx_data = randi(MOD_ORDER, 1, N_DATA_SYMS) - 1;
+tx_data_scm = tx_data(1:30);
+tx_data_scm_up48 = upsample(tx_data_scm, 48);
 
 tx_syms = mod_sym(tx_data, MOD_ORDER);
 
-% Cut number of symbols by a factor of 48 for CP-SCM
-tx_syms_cpscm = tx_syms(1, 1:30);
+% Cut number of symbols by factor of 48 as only a single carrier is
+% carrying data
+tx_syms_scm = mod_sym(tx_data_scm, MOD_ORDER);
+tx_syms_scm_pre_upsample = tx_syms_scm;
+tx_syms_scm_up48 = upsample(tx_syms_scm, 48);
+
 
 % Upsample to fill unused subcarriers
 CYCLES_PER_SYMBOL_CPSCM = 1;
-tx_syms_cpscm = upsample(tx_syms_cpscm, N_SC); % length 48
-tx_syms_cpscm = circshift(tx_syms_cpscm, CYCLES_PER_SYMBOL_CPSCM);  % Shift into only subcarrier which will be the single carrier
+tx_syms_scm = upsample(tx_syms_scm, N_SC); % length 48
+tx_syms_scm = circshift(tx_syms_scm, CYCLES_PER_SYMBOL_CPSCM);  % Shift into only subcarrier which will be the single carrier
 
 % Reshape the symbol vector to a matrix with one column per OFDM symbol
 tx_syms_mat = reshape(tx_syms, length(SC_IND_DATA), N_OFDM_SYM);
-tx_syms_mat_cpscm = reshape(tx_syms_cpscm, N_SC, N_OFDM_SYM);
+tx_syms_mat_scm = reshape(tx_syms_scm, N_SC, N_OFDM_SYM);
 
 % Define the pilot tone values as BPSK symbols
 pilots = [1 1 -1 1].';
@@ -135,7 +141,7 @@ fdd_mat(SC_IND_PILOTS, :) = pilots_mat;
 % Do yourselves: get TD samples:
 tdd_tx_payload_mat = ifft(fdd_mat, N_SC, 1);
 
-tdd_tx_payload_mat_cpscm = ifft(tx_syms_mat_cpscm, N_SC);
+tdd_tx_payload_mat_scm = ifft(tx_syms_mat_scm, N_SC);
 
 % Insert the cyclic prefix
 if(CP_LEN > 0)
@@ -143,27 +149,26 @@ if(CP_LEN > 0)
     tx_cp = tdd_tx_payload_mat((end-CP_LEN+1 : end), :);
     tdd_tx_payload_mat = [tx_cp; tdd_tx_payload_mat];
 
-    tx_cp_scm = tdd_tx_payload_mat_cpscm((end-CP_LEN+1:end), :);
-    tdd_tx_payload_mat_cpscm = [tx_cp_scm; tdd_tx_payload_mat_cpscm];
+    tx_cp_scm = tdd_tx_payload_mat_scm((end-CP_LEN+1:end), :);
+    tdd_tx_payload_mat_scm = [tx_cp_scm; tdd_tx_payload_mat_scm];
 end
 
 % Reshape to a vector
 tx_payload_vec = reshape(tdd_tx_payload_mat, 1, numel(tdd_tx_payload_mat));
-tx_payload_vec_cpscm = reshape(tdd_tx_payload_mat_cpscm, 1, numel(tdd_tx_payload_mat));
-
+tx_payload_vec_scm = reshape(tdd_tx_payload_mat_scm, 1, numel(tdd_tx_payload_mat));
 
 % Construct the full time-domain OFDM waveform
 MAX_N_SAMPS = 4096;    % Maximum number of samples we can write to the FPGA buffer for TX
 N_ZPAD_POST = MAX_N_SAMPS - N_ZPAD_PRE - length(preamble) - length(tx_payload_vec);
 tx_vec = [zeros(1,N_ZPAD_PRE) preamble tx_payload_vec zeros(1,N_ZPAD_POST)];
 
-N_ZPAD_POST_CPSCM = MAX_N_SAMPS - N_ZPAD_PRE - length(preamble) - length(tx_payload_vec_cpscm);
-tx_vec_cpscm = [zeros(1,N_ZPAD_PRE) preamble tx_payload_vec_cpscm zeros(1,N_ZPAD_POST_CPSCM)];
+N_ZPAD_POST_CPSCM = MAX_N_SAMPS - N_ZPAD_PRE - length(preamble) - length(tx_payload_vec_scm);
+tx_vec_scm = [zeros(1,N_ZPAD_PRE) preamble tx_payload_vec_scm zeros(1,N_ZPAD_POST_CPSCM)];
 
 SCM_ON = 1;
 if(SCM_ON == 1)
   % Leftover from zero padding:
-  tx_vec_iris = tx_vec_cpscm.';
+  tx_vec_iris = tx_vec_scm.';
 else
   tx_vec_iris = tx_vec.';
 end
@@ -174,23 +179,40 @@ tx_vec_iris = TX_SCALE .* tx_vec_iris ./ max(abs(tx_vec_iris));
 if SIM_MODE
     disp("Running: AWGN SIMULATION MODE");
     % AWGN only
-    snr = 20;
+    snr = 2;
     tx_var = mean(mean(abs(tx_vec_iris).^2 )) * (64/48);
     nvar =  tx_var / 10^(0.1*snr); % noise variance per data sample
 
+    hvar = 1;
+
     % This seems like a bad model, no channel effects, just noise
+    advanced_model = 1;
+
     H_ul = ones(size(tx_vec_iris.'));
+
+    % zero mean real, std dev sqrt(1/2) real, zero mean imag, std dev 1, this generates Rayleigh Fading as it evolves over each sample in time
+    H_ul_adv = sqrt(hvar/2).*randn(N_BS_NODE, length(tx_vec_iris)) + 1i*randn(N_BS_NODE, length(tx_vec_iris));
+    H_ul_adv = sqrt(abs(H_ul_adv).^2);
+
+    % Smooth with 15 element window
+    H_ul_adv = smoothdata(H_ul_adv, 2, 'movmean',15);
 
     % noise vector
     W_ul = sqrt(nvar/2).* (randn(N_BS_NODE, length(tx_vec_iris)) + ...
         1i*randn(N_BS_NODE, length(tx_vec_iris)) );
     
     % output vector
-    rx_vec_iris_tmp = H_ul.*tx_vec_iris.' + W_ul;
+    if(advanced_model == 1)
+        rx_vec_iris_tmp = H_ul_adv.*tx_vec_iris.' + W_ul;
+    else
+        rx_vec_iris_tmp = H_ul.*tx_vec_iris.' + W_ul;
+    end;
     rx_vec_iris_tmp = rx_vec_iris_tmp.';
 
-    % numGoodFrames = 1;  % Don't care about number of frames in SIM MODE
-    numGoodFrames = 5;  % We do care for testing cpscm as the flow is different the OFDM
+    numGoodFrames = 1;  % Don't care about number of frames in SIM MODE
+    % numGoodFrames = 5;  % We do care for testing cpscm as the flow is different the OFDM
+
+    tx_direction = 'uplink';      % Options: {'uplink', 'downlink', 'ul-refnode-as-ue'}    
 else
     % Set up the Iris experiment
     disp("Running: HARDWARE MODE");
@@ -268,6 +290,8 @@ for frm_idx = 1:numGoodFrames
     if DEBUG
         figure; plot(abs(rx_vec_iris));
     end
+
+    
     %% Correlate for LTS
     % Complex cross correlation of Rx waveform with time-domain LTS
     a = 1;
@@ -370,18 +394,33 @@ for frm_idx = 1:numGoodFrames
     %% Demodulate
     rx_syms = reshape(payload_syms_mat, 1, N_DATA_SYMS);
 
+    % Discard all non single carrier bins, discard 47 of 48 bins
+    rx_syms_scm = downsample(rx_syms, 48);
+
     rx_data = demod_sym(rx_syms ,MOD_ORDER);
+    rx_data_scm = demod_sym(rx_syms_scm, MOD_ORDER);
+
+    % Need to downsample by 64
 
     bit_errs = length(find(dec2bin(bitxor(tx_data, rx_data),8) == '1'));
+    
+
+    %tx_syms_scm = tx_syms(1, 1:30);
+    bit_errs_scm = length(find(dec2bin(bitxor(tx_data_scm, rx_data_scm),8) == '1'));
 
     ber_SIM = bit_errs/(N_DATA_SYMS * log2(MOD_ORDER));
-
+    ber_SIM_scm = bit_errs_scm/(N_DATA_SYMS/48 * log2(MOD_ORDER));
 
     % EVM & SNR
     % Do yourselves. Calculate EVM and effective SNR:
     evm_mat = abs(payload_syms_mat - tx_syms_mat).^2;
+    evm_mat_scm = abs(rx_syms_scm - tx_syms_scm_pre_upsample).^2;
+
     aevms = mean(evm_mat(:)); % needs to be a scalar
+    aevms_scm = mean(evm_mat_scm(:)); % needs to be a scalar    
+
     snr = 10*log10(1./aevms); % calculate in dB scale.
+    snr_scm = 10*log10(1./aevms_scm); % calculate in dB scale.    
 
 
     %% Plot Results
@@ -470,14 +509,16 @@ for frm_idx = 1:numGoodFrames
         cf = cf + 1;
         figure(cf); clf;
 
-        plot(payload_syms_mat(:),'o','MarkerSize',2, 'color', sec_clr);
+        %plot(payload_syms_mat(:),'o','MarkerSize',2, 'color', sec_clr);
+        plot(rx_syms_scm(:),'o','MarkerSize',2, 'color', sec_clr);        
         axis square; axis(1.5*[-1 1 -1 1]);
         xlabel('Inphase')
         ylabel('Quadrature')
         grid on;
         hold on;
 
-        plot(tx_syms_mat(:),'*', 'MarkerSize',16, 'LineWidth',2, 'color', fst_clr);
+        %plot(tx_syms_mat(:),'*', 'MarkerSize',16, 'LineWidth',2, 'color', fst_clr);
+        plot(tx_syms_scm(:),'*', 'MarkerSize',16, 'LineWidth',2, 'color', fst_clr);        
         title('Tx and Rx Constellations')
         legend('Rx','Tx','Location','EastOutside');
 
@@ -490,10 +531,10 @@ for frm_idx = 1:numGoodFrames
         cf = cf + 1;
         figure(cf); clf;
         subplot(2,1,1)
-        plot(100*evm_mat(:),'o','MarkerSize',1)
+        plot(100*evm_mat_scm(:),'o','MarkerSize',1)
         axis tight
         hold on
-        plot([1 length(evm_mat(:))], 100*[aevms, aevms],'color', sec_clr,'LineWidth',4)
+        plot([1 length(evm_mat_scm(:))], 100*[aevms_scm, aevms_scm],'color', sec_clr,'LineWidth',4)
         myAxis = axis;
         h = text(round(.05*length(evm_mat(:))), 100*aevms+ .1*(myAxis(4)-myAxis(3)), sprintf('Effective SNR: %.1f dB', snr));
         set(h,'Color',[1 0 0])
@@ -509,7 +550,7 @@ for frm_idx = 1:numGoodFrames
         grid on
 
         subplot(2,1,2)
-        imagesc(1:N_OFDM_SYM, (SC_IND_DATA - N_SC/2), 100*fftshift(evm_mat,1))
+        imagesc(1:N_OFDM_SYM, (SC_IND_DATA - N_SC/2), 100*fftshift(evm_mat_scm,1))
 
         grid on
         xlabel('OFDM Symbol Index')
@@ -529,16 +570,19 @@ for frm_idx = 1:numGoodFrames
         end
     end
 
-    %% Calculate Rx stats
+    %% Calculate Rx stat
 
     sym_errs = sum(tx_data ~= rx_data);
+    sym_errs_scm = sum(tx_data_scm ~= rx_data_scm);    
     bit_errs = length(find(dec2bin(bitxor(tx_data, rx_data),8) == '1'));
-    rx_evm   = sqrt(sum((real(rx_syms) - real(tx_syms)).^2 + (imag(rx_syms) - imag(tx_syms)).^2)/(length(SC_IND_DATA) * N_OFDM_SYM));
+    bit_errs_scm = length(find(dec2bin(bitxor(tx_data_scm, rx_data_scm),8) == '1'));
+
+    rx_evm   = sqrt(sum((real(rx_syms_scm) - real(tx_syms_scm_pre_upsample)).^2 + (imag(rx_syms_scm) - imag(tx_syms_scm_pre_upsample)).^2)/(length(SC_IND_DATA) * N_OFDM_SYM));
 
     fprintf('\n Frame %d Results:\n', frm_idx);
     fprintf('Transmission Mode: %s \n', tx_direction);
     fprintf('Num Bytes:   %d\n', N_DATA_SYMS * log2(MOD_ORDER) / 8);
-    fprintf('Sym Errors:  %d (of %d total symbols)\n', sym_errs, N_DATA_SYMS);
-    fprintf('Bit Errors:  %d (of %d total bits)\n', bit_errs, N_DATA_SYMS * log2(MOD_ORDER));
-    fprintf('Avg. EVM: %f%% \n', 100*aevms);
+    fprintf('Sym Errors:  %d (of %d total symbols)\n', sym_errs_scm, N_DATA_SYMS);
+    fprintf('Bit Errors:  %d (of %d total bits)\n', bit_errs_scm, N_DATA_SYMS * log2(MOD_ORDER));
+    fprintf('Avg. EVM: %f%% \n', 100*aevms_scm);
 end
