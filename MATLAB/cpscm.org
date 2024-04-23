@@ -1,0 +1,68 @@
+* TODO Baseline Captures
+** TODO SISO SIM
+  1) [X] Tar and copy repo with artifacts
+  2) [ ] Create output measure for PAPR
+  3) [X] Phase correct using LTS rather than adjacent carrier pilots, !!! THIS DOES NOT WORK !!!
+  4) [ ] Remove Zeros frame IQ scatter plot
+  5) [ ] Fix output to show
+     - [ ] correct symbols, bytes
+     - [ ] correct RX vect plot
+     - [ ] 
+  6) [ ] Capture noise floor
+  7) [ ] Sweep Power for BER			
+  8) [ ] Plot PSD				
+  9) [ ] Show phase offset			
+  10) [ ] Address phase offset			
+  11) [ ] Fix print output to refect accurate SNR
+** TODO SISO Captures
+  1) [ ] Measure noise floor
+  2) [ ] Create output measure for PAPR
+  3) [ ] Capture noise floor			   
+  4) [ ] Plot PSD				   
+  5) [X] Sweep SISO Power for BER		   
+  6) [X] Sweep SISO frame symbol count to 47	   
+  7) [ ] Ask about potential sampling rate changes 
+  8) [X] Show phase offset			   
+  9) [ ] Address phase offset                      
+    
+** TODO MIMO SIM
+  1) [ ] Create output measure for PAPR
+  2) [ ] Capture noise floor	
+  3) [ ] Sweep SISO Power	
+  4) [ ] Ask about sampling rate
+
+** TODO MIMO Captures
+  1) [ ] Measure noise floor
+  2) [ ] Create output measure for PAPR
+  3) [ ] Ask about potential sampling rate changes
+  4) [ ] 
+* TODO CPSCM Captures
+** TODO SISO Captures
+** TODO MIMO Captures
+* TODO Write Final Paper
+
+** Questions
+  1) [ ] How is the lts shaped and how is it used for the channel estimate, and how is it applied as the channel changes over time
+     - [ ] Would 
+
+* Calander
+
+ | MON                                     | TUE                                       | WE                      | THU | FRI | SAT | SUN |
+ |-----------------------------------------+-------------------------------------------+-------------------------+-----+-----+-----+-----|
+ | Capture noise floor                     | Capture noise floor                       | Capture noise floor     |     |     |     |     |
+ | Sweep Power for BER                     | Plot PSD                                  | Sweep SISO Power        |     |     |     |     |
+ | Plot PSD                                | Sweep SISO Power for BER                  | Ask about sampling rate |     |     |     |     |
+ | Show phase offset                       | Sweep SISO frame symbol count to 47       |                         |     |     |     |     |
+ | Address phase offset                    | Ask about potential sampling rate changes |                         |     |     |     |     |
+ | Fix print output to refect accurate SNR | Show phase offset                         |                         |     |     |     |     |
+ |                                         | Address phase offset                      |                         |     |     |     |     |
+ |                                         |                                           |                         |     |     |     |     |
+ |                                         |                                           |                         |     |     |     |     |
+ |                                         |                                           |                         |     |     |     |     |
+ |                                         |                                           |                         |     |     |     |     |
+
+
+
+
+
+
