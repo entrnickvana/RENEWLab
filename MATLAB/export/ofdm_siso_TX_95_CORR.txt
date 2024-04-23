@@ -1,0 +1,5851 @@
+Running: HARDWARE MODE
+HUB: FH4B000003
+BS NODES: ['RF3E000722']
+UE NODES: ['RF3E000665']
+REF NODES: []
+Setting up RX stream 
+
+Setting up RX stream 
+
+burnt beacon to node RF3E000722 FPGA RAM
+BGRG
+TDD schedule of BS node RF3E000722: BGRG
+GGPG
+!!! Set TX_ADVANCE to 235.0 + beacon length 256 = 491.0 !!!
+config_sdr_tdd: UE starting symbol and sample count (0, 491)
+TDD schedule of UE node RF3E000665: GGPG
+burnt data on to node RF3E000665 FPGA RAM
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [0], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [1], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [1], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [1], Amplitude = 0
+frame = 0, tries = 4, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [2], Amplitude = 0
+frame = 1, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [3], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [3], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [3], Amplitude = 0
+frame = 2, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [4], Amplitude = 0
+frame = 3, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [5], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [5], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [5], Amplitude = 0
+frame = 4, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [6], Amplitude = 0
+frame = 5, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [7], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [7], Amplitude = 0
+frame = 6, tries = 2, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [8], Amplitude = 0
+frame = 7, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [9], Amplitude = 0
+frame = 8, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [10], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [10], Amplitude = 0
+frame = 9, tries = 2, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [11], Amplitude = 0
+frame = 10, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [12], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [12], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [12], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [12], Amplitude = 0
+frame = 11, tries = 4, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [13], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [13], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [13], Amplitude = 0
+frame = 12, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [14], Amplitude = 0
+frame = 13, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [15], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [15], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [15], Amplitude = 0
+frame = 14, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [16], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [16], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [16], Amplitude = 0
+frame = 15, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [17], Amplitude = 0
+frame = 16, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [18], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [18], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [18], Amplitude = 0
+frame = 17, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [19], Amplitude = 0
+frame = 18, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [20], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [20], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [20], Amplitude = 0
+frame = 19, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [21], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [21], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [21], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [21], Amplitude = 0
+frame = 20, tries = 4, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [22], Amplitude = 0
+frame = 21, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [23], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [23], Amplitude = 0
+frame = 22, tries = 2, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [24], Amplitude = 0
+frame = 23, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [25], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [25], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [25], Amplitude = 0
+frame = 24, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [26], Amplitude = 0
+frame = 25, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [27], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [27], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [27], Amplitude = 0
+frame = 26, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [28], Amplitude = 0
+frame = 27, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [29], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [29], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [29], Amplitude = 0
+frame = 28, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [30], Amplitude = 0
+frame = 29, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [31], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [31], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [31], Amplitude = 0
+frame = 30, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [32], Amplitude = 0
+frame = 31, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [33], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [33], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [33], Amplitude = 0
+frame = 32, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [34], Amplitude = 0
+frame = 33, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [35], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [35], Amplitude = 0
+frame = 34, tries = 2, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [36], Amplitude = 0
+frame = 35, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [37], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [37], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [37], Amplitude = 0
+frame = 36, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [38], Amplitude = 0
+frame = 37, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [39], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [39], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [39], Amplitude = 0
+frame = 38, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [40], Amplitude = 0
+frame = 39, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [41], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [41], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [41], Amplitude = 0
+frame = 40, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [42], Amplitude = 0
+frame = 41, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [43], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [43], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [43], Amplitude = 0
+frame = 42, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [44], Amplitude = 0
+frame = 43, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [45], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [45], Amplitude = 0
+frame = 44, tries = 2, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [46], Amplitude = 0
+frame = 45, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [47], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [47], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [47], Amplitude = 0
+frame = 46, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [48], Amplitude = 0
+frame = 47, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [49], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [49], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [49], Amplitude = 0
+frame = 48, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [50], Amplitude = 0
+frame = 49, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [51], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [51], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [51], Amplitude = 0
+frame = 50, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [52], Amplitude = 0
+frame = 51, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [53], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [53], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [53], Amplitude = 0
+frame = 52, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [54], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [54], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [54], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [54], Amplitude = 0
+frame = 53, tries = 4, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [55], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [55], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [55], Amplitude = 0
+frame = 54, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [56], Amplitude = 0
+frame = 55, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [57], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [57], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [57], Amplitude = 0
+frame = 56, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [58], Amplitude = 0
+frame = 57, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [59], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [59], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [59], Amplitude = 0
+frame = 58, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [60], Amplitude = 0
+frame = 59, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [61], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [61], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [61], Amplitude = 0
+frame = 60, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [62], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [62], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [62], Amplitude = 0
+frame = 61, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [63], Amplitude = 0
+frame = 62, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [64], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [64], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [64], Amplitude = 0
+frame = 63, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [65], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [65], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [65], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [65], Amplitude = 0
+frame = 64, tries = 4, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [66], Amplitude = 0
+frame = 65, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [67], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [67], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [67], Amplitude = 0
+frame = 66, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [68], Amplitude = 0
+frame = 67, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [69], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [69], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [69], Amplitude = 0
+frame = 68, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [70], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [70], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [70], Amplitude = 0
+frame = 69, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [71], Amplitude = 0
+frame = 70, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [72], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [72], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [72], Amplitude = 0
+frame = 71, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [73], Amplitude = 0
+frame = 72, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [74], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [74], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [74], Amplitude = 0
+frame = 73, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [75], Amplitude = 0
+frame = 74, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [76], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [76], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [76], Amplitude = 0
+frame = 75, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [77], Amplitude = 0
+frame = 76, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [78], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [78], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [78], Amplitude = 0
+frame = 77, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [79], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [79], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [79], Amplitude = 0
+frame = 78, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [80], Amplitude = 0
+frame = 79, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [81], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [81], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [81], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [81], Amplitude = 0
+frame = 80, tries = 4, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [82], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [82], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [82], Amplitude = 0
+frame = 81, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [83], Amplitude = 0
+frame = 82, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [84], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [84], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [84], Amplitude = 0
+frame = 83, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [85], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [85], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [85], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [85], Amplitude = 0
+frame = 84, tries = 4, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [86], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [86], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [86], Amplitude = 0
+frame = 85, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [87], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [87], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [87], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [87], Amplitude = 0
+frame = 86, tries = 4, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [88], Amplitude = 0
+frame = 87, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [89], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [89], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [89], Amplitude = 0
+frame = 88, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [90], Amplitude = 0
+frame = 89, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [91], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [91], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [91], Amplitude = 0
+frame = 90, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [92], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [92], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [92], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [92], Amplitude = 0
+frame = 91, tries = 4, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [93], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [93], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [93], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [93], Amplitude = 0
+frame = 92, tries = 4, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [94], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [94], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [94], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [94], Amplitude = 0
+frame = 93, tries = 4, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [95], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [95], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [95], Amplitude = 0
+frame = 94, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [96], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [96], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [96], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [96], Amplitude = 0
+frame = 95, tries = 4, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [97], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [97], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [97], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [97], Amplitude = 0
+frame = 96, tries = 4, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [98], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [98], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [98], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [98], Amplitude = 0
+frame = 97, tries = 4, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [99], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [99], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [99], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [99], Amplitude = 0
+frame = 98, tries = 4, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [100], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [100], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [100], Amplitude = 0
+frame = 99, tries = 3, all_triggred = True, good_signal = True, amp = 0
+Cleaning up streams
+Done!
+Cleaning up streams
+Done!
+ =============================== 
+Frame #1 Out of 100 Triggered Frames 
+
+ Frame 1 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 0.962258% 
+SNR: 2.016709e+01 dB 
+ =============================== 
+Frame #2 Out of 100 Triggered Frames 
+
+ Frame 2 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 0.782253% 
+SNR: 2.106653e+01 dB 
+ =============================== 
+Frame #3 Out of 100 Triggered Frames 
+
+ Frame 3 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  1305 (of 1440 total symbols)
+Bit Errors:  2756 (of 5760 total bits)
+Avg. EVM: 95.487573% 
+SNR: 2.005315e-01 dB 
+ =============================== 
+Frame #4 Out of 100 Triggered Frames 
+
+ Frame 4 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 0.817784% 
+SNR: 2.087361e+01 dB 
+ =============================== 
+Frame #5 Out of 100 Triggered Frames 
+
+ Frame 5 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 0.821786% 
+SNR: 2.085242e+01 dB 
+ =============================== 
+Frame #6 Out of 100 Triggered Frames 
+
+ Frame 6 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 0.952832% 
+SNR: 2.020984e+01 dB 
+ =============================== 
+Frame #7 Out of 100 Triggered Frames 
+
+ Frame 7 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 0.995946% 
+SNR: 2.001764e+01 dB 
+ =============================== 
+Frame #8 Out of 100 Triggered Frames 
+
+ Frame 8 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 0.956916% 
+SNR: 2.019126e+01 dB 
+ =============================== 
+Frame #9 Out of 100 Triggered Frames 
+
+ Frame 9 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 0.893251% 
+SNR: 2.049026e+01 dB 
+ =============================== 
+Frame #10 Out of 100 Triggered Frames 
+
+ Frame 10 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 1.142740% 
+SNR: 1.942053e+01 dB 
+ =============================== 
+Frame #11 Out of 100 Triggered Frames 
+
+ Frame 11 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 0.938872% 
+SNR: 2.027394e+01 dB 
+ =============================== 
+Frame #12 Out of 100 Triggered Frames 
+
+ Frame 12 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 0.885031% 
+SNR: 2.053041e+01 dB 
+ =============================== 
+Frame #13 Out of 100 Triggered Frames 
+
+ Frame 13 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 0.875038% 
+SNR: 2.057973e+01 dB 
+ =============================== 
+Frame #14 Out of 100 Triggered Frames 
+
+ Frame 14 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 0.827101% 
+SNR: 2.082441e+01 dB 
+ =============================== 
+Frame #15 Out of 100 Triggered Frames 
+
+ Frame 15 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 1.020288% 
+SNR: 1.991277e+01 dB 
+ =============================== 
+Frame #16 Out of 100 Triggered Frames 
+
+ Frame 16 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 1.054984% 
+SNR: 1.976754e+01 dB 
+ =============================== 
+Frame #17 Out of 100 Triggered Frames 
+
+ Frame 17 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 0.789840% 
+SNR: 2.102461e+01 dB 
+ =============================== 
+Frame #18 Out of 100 Triggered Frames 
+
+ Frame 18 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 0.925313% 
+SNR: 2.033712e+01 dB 
+ =============================== 
+Frame #19 Out of 100 Triggered Frames 
+
+ Frame 19 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 1.462208% 
+SNR: 1.834991e+01 dB 
+ =============================== 
+Frame #20 Out of 100 Triggered Frames 
+
+ Frame 20 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 0.851762% 
+SNR: 2.069682e+01 dB 
+ =============================== 
+Frame #21 Out of 100 Triggered Frames 
+
+ Frame 21 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 0.939165% 
+SNR: 2.027258e+01 dB 
+ =============================== 
+Frame #22 Out of 100 Triggered Frames 
+
+ Frame 22 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 0.886350% 
+SNR: 2.052395e+01 dB 
+ =============================== 
+Frame #23 Out of 100 Triggered Frames 
+
+ Frame 23 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 0.827766% 
+SNR: 2.082092e+01 dB 
+ =============================== 
+Frame #24 Out of 100 Triggered Frames 
+
+ Frame 24 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 0.875402% 
+SNR: 2.057793e+01 dB 
+ =============================== 
+Frame #25 Out of 100 Triggered Frames 
+
+ Frame 25 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 1.115604% 
+SNR: 1.952490e+01 dB 
+ =============================== 
+Frame #26 Out of 100 Triggered Frames 
+
+ Frame 26 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 0.806308% 
+SNR: 2.093499e+01 dB 
+ =============================== 
+Frame #27 Out of 100 Triggered Frames 
+
+ Frame 27 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 0.866978% 
+SNR: 2.061992e+01 dB 
+ =============================== 
+Frame #28 Out of 100 Triggered Frames 
+
+ Frame 28 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 0.833733% 
+SNR: 2.078973e+01 dB 
+ =============================== 
+Frame #29 Out of 100 Triggered Frames 
+
+ Frame 29 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 0.813822% 
+SNR: 2.089471e+01 dB 
+ =============================== 
+Frame #30 Out of 100 Triggered Frames 
+
+ Frame 30 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 0.893231% 
+SNR: 2.049036e+01 dB 
+ =============================== 
+Frame #31 Out of 100 Triggered Frames 
+
+ Frame 31 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 0.897605% 
+SNR: 2.046915e+01 dB 
+ =============================== 
+Frame #32 Out of 100 Triggered Frames 
+
+ Frame 32 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 0.839313% 
+SNR: 2.076076e+01 dB 
+ =============================== 
+Frame #33 Out of 100 Triggered Frames 
+
+ Frame 33 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 0.808965% 
+SNR: 2.092070e+01 dB 
+ =============================== 
+Frame #34 Out of 100 Triggered Frames 
+
+ Frame 34 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 0.911252% 
+SNR: 2.040362e+01 dB 
+ =============================== 
+Frame #35 Out of 100 Triggered Frames 
+
+ Frame 35 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 1.000952% 
+SNR: 1.999587e+01 dB 
+ =============================== 
+Frame #36 Out of 100 Triggered Frames 
+
+ Frame 36 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 0.970563% 
+SNR: 2.012976e+01 dB 
+ =============================== 
+Frame #37 Out of 100 Triggered Frames 
+
+ Frame 37 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 0.981583% 
+SNR: 2.008073e+01 dB 
+ =============================== 
+Frame #38 Out of 100 Triggered Frames 
+
+ Frame 38 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 0.871538% 
+SNR: 2.059714e+01 dB 
+ =============================== 
+Frame #39 Out of 100 Triggered Frames 
+
+ Frame 39 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 1.003845% 
+SNR: 1.998333e+01 dB 
+ =============================== 
+Frame #40 Out of 100 Triggered Frames 
+
+ Frame 40 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 0.866833% 
+SNR: 2.062065e+01 dB 
+ =============================== 
+Frame #41 Out of 100 Triggered Frames 
+
+ Frame 41 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 0.951987% 
+SNR: 2.021369e+01 dB 
+ =============================== 
+Frame #42 Out of 100 Triggered Frames 
+
+ Frame 42 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 0.928072% 
+SNR: 2.032418e+01 dB 
+ =============================== 
+Frame #43 Out of 100 Triggered Frames 
+
+ Frame 43 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 0.866861% 
+SNR: 2.062051e+01 dB 
+ =============================== 
+Frame #44 Out of 100 Triggered Frames 
+
+ Frame 44 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 0.943586% 
+SNR: 2.025219e+01 dB 
+ =============================== 
+Frame #45 Out of 100 Triggered Frames 
+
+ Frame 45 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 0.858752% 
+SNR: 2.066132e+01 dB 
+ =============================== 
+Frame #46 Out of 100 Triggered Frames 
+
+ Frame 46 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 0.997278% 
+SNR: 2.001184e+01 dB 
+ =============================== 
+Frame #47 Out of 100 Triggered Frames 
+
+ Frame 47 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 0.891514% 
+SNR: 2.049872e+01 dB 
+ =============================== 
+Frame #48 Out of 100 Triggered Frames 
+
+ Frame 48 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 0.920989% 
+SNR: 2.035746e+01 dB 
+ =============================== 
+Frame #49 Out of 100 Triggered Frames 
+
+ Frame 49 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 0.958219% 
+SNR: 2.018535e+01 dB 
+ =============================== 
+Frame #50 Out of 100 Triggered Frames 
+
+ Frame 50 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 1.340003% 
+SNR: 1.872894e+01 dB 
+ =============================== 
+Frame #51 Out of 100 Triggered Frames 
+
+ Frame 51 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 0.869387% 
+SNR: 2.060787e+01 dB 
+ =============================== 
+Frame #52 Out of 100 Triggered Frames 
+
+ Frame 52 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 0.889862% 
+SNR: 2.050677e+01 dB 
+ =============================== 
+Frame #53 Out of 100 Triggered Frames 
+
+ Frame 53 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 0.980860% 
+SNR: 2.008393e+01 dB 
+ =============================== 
+Frame #54 Out of 100 Triggered Frames 
+
+ Frame 54 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 0.849405% 
+SNR: 2.070885e+01 dB 
+ =============================== 
+Frame #55 Out of 100 Triggered Frames 
+
+ Frame 55 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 0.921534% 
+SNR: 2.035488e+01 dB 
+ =============================== 
+Frame #56 Out of 100 Triggered Frames 
+
+ Frame 56 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 0.953428% 
+SNR: 2.020712e+01 dB 
+ =============================== 
+Frame #57 Out of 100 Triggered Frames 
+
+ Frame 57 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 0.829465% 
+SNR: 2.081202e+01 dB 
+ =============================== 
+Frame #58 Out of 100 Triggered Frames 
+
+ Frame 58 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 0.869966% 
+SNR: 2.060498e+01 dB 
+ =============================== 
+Frame #59 Out of 100 Triggered Frames 
+
+ Frame 59 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 0.933023% 
+SNR: 2.030108e+01 dB 
+ =============================== 
+Frame #60 Out of 100 Triggered Frames 
+
+ Frame 60 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 0.953285% 
+SNR: 2.020777e+01 dB 
+ =============================== 
+Frame #61 Out of 100 Triggered Frames 
+
+ Frame 61 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 0.854313% 
+SNR: 2.068383e+01 dB 
+ =============================== 
+Frame #62 Out of 100 Triggered Frames 
+
+ Frame 62 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 0.896202% 
+SNR: 2.047594e+01 dB 
+ =============================== 
+Frame #63 Out of 100 Triggered Frames 
+
+ Frame 63 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 0.947494% 
+SNR: 2.023423e+01 dB 
+ =============================== 
+Frame #64 Out of 100 Triggered Frames 
+
+ Frame 64 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 0.742623% 
+SNR: 2.129232e+01 dB 
+ =============================== 
+Frame #65 Out of 100 Triggered Frames 
+
+ Frame 65 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 1.061834% 
+SNR: 1.973944e+01 dB 
+ =============================== 
+Frame #66 Out of 100 Triggered Frames 
+
+ Frame 66 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 0.991061% 
+SNR: 2.003900e+01 dB 
+ =============================== 
+Frame #67 Out of 100 Triggered Frames 
+
+ Frame 67 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 0.934004% 
+SNR: 2.029651e+01 dB 
+ =============================== 
+Frame #68 Out of 100 Triggered Frames 
+
+ Frame 68 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 1.178282% 
+SNR: 1.928751e+01 dB 
+ =============================== 
+Frame #69 Out of 100 Triggered Frames 
+
+ Frame 69 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 0.862856% 
+SNR: 2.064062e+01 dB 
+ =============================== 
+Frame #70 Out of 100 Triggered Frames 
+
+ Frame 70 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  13 (of 1440 total symbols)
+Bit Errors:  13 (of 5760 total bits)
+Avg. EVM: 2.211449% 
+SNR: 1.655323e+01 dB 
+ =============================== 
+Frame #71 Out of 100 Triggered Frames 
+
+ Frame 71 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 1.026956% 
+SNR: 1.988448e+01 dB 
+ =============================== 
+Frame #72 Out of 100 Triggered Frames 
+
+ Frame 72 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  11 (of 1440 total symbols)
+Bit Errors:  11 (of 5760 total bits)
+Avg. EVM: 2.113785% 
+SNR: 1.674939e+01 dB 
+ =============================== 
+Frame #73 Out of 100 Triggered Frames 
+
+ Frame 73 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 0.910374% 
+SNR: 2.040780e+01 dB 
+ =============================== 
+Frame #74 Out of 100 Triggered Frames 
+
+ Frame 74 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  9 (of 1440 total symbols)
+Bit Errors:  9 (of 5760 total bits)
+Avg. EVM: 2.047049% 
+SNR: 1.688872e+01 dB 
+ =============================== 
+Frame #75 Out of 100 Triggered Frames 
+
+ Frame 75 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  9 (of 1440 total symbols)
+Bit Errors:  9 (of 5760 total bits)
+Avg. EVM: 2.222572% 
+SNR: 1.653144e+01 dB 
+ =============================== 
+Frame #76 Out of 100 Triggered Frames 
+
+ Frame 76 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  9 (of 1440 total symbols)
+Bit Errors:  9 (of 5760 total bits)
+Avg. EVM: 2.082121% 
+SNR: 1.681494e+01 dB 
+ =============================== 
+Frame #77 Out of 100 Triggered Frames 
+
+ Frame 77 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  11 (of 1440 total symbols)
+Bit Errors:  11 (of 5760 total bits)
+Avg. EVM: 1.999814% 
+SNR: 1.699010e+01 dB 
+ =============================== 
+Frame #78 Out of 100 Triggered Frames 
+
+ Frame 78 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  9 (of 1440 total symbols)
+Bit Errors:  9 (of 5760 total bits)
+Avg. EVM: 2.143569% 
+SNR: 1.668863e+01 dB 
+ =============================== 
+Frame #79 Out of 100 Triggered Frames 
+
+ Frame 79 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  9 (of 1440 total symbols)
+Bit Errors:  9 (of 5760 total bits)
+Avg. EVM: 2.143514% 
+SNR: 1.668874e+01 dB 
+ =============================== 
+Frame #80 Out of 100 Triggered Frames 
+
+ Frame 80 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  10 (of 1440 total symbols)
+Bit Errors:  10 (of 5760 total bits)
+Avg. EVM: 1.971247% 
+SNR: 1.705259e+01 dB 
+ =============================== 
+Frame #81 Out of 100 Triggered Frames 
+
+ Frame 81 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  7 (of 1440 total symbols)
+Bit Errors:  7 (of 5760 total bits)
+Avg. EVM: 1.931365% 
+SNR: 1.714136e+01 dB 
+ =============================== 
+Frame #82 Out of 100 Triggered Frames 
+
+ Frame 82 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  9 (of 1440 total symbols)
+Bit Errors:  9 (of 5760 total bits)
+Avg. EVM: 2.025030% 
+SNR: 1.693568e+01 dB 
+ =============================== 
+Frame #83 Out of 100 Triggered Frames 
+
+ Frame 83 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  6 (of 1440 total symbols)
+Bit Errors:  6 (of 5760 total bits)
+Avg. EVM: 2.060249% 
+SNR: 1.686080e+01 dB 
+ =============================== 
+Frame #84 Out of 100 Triggered Frames 
+
+ Frame 84 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  10 (of 1440 total symbols)
+Bit Errors:  10 (of 5760 total bits)
+Avg. EVM: 1.998876% 
+SNR: 1.699214e+01 dB 
+ =============================== 
+Frame #85 Out of 100 Triggered Frames 
+
+ Frame 85 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  8 (of 1440 total symbols)
+Bit Errors:  8 (of 5760 total bits)
+Avg. EVM: 2.045612% 
+SNR: 1.689177e+01 dB 
+ =============================== 
+Frame #86 Out of 100 Triggered Frames 
+
+ Frame 86 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  7 (of 1440 total symbols)
+Bit Errors:  7 (of 5760 total bits)
+Avg. EVM: 1.908884% 
+SNR: 1.719220e+01 dB 
+ =============================== 
+Frame #87 Out of 100 Triggered Frames 
+
+ Frame 87 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  6 (of 1440 total symbols)
+Bit Errors:  6 (of 5760 total bits)
+Avg. EVM: 1.804533% 
+SNR: 1.743635e+01 dB 
+ =============================== 
+Frame #88 Out of 100 Triggered Frames 
+
+ Frame 88 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  7 (of 1440 total symbols)
+Bit Errors:  7 (of 5760 total bits)
+Avg. EVM: 1.862124% 
+SNR: 1.729992e+01 dB 
+ =============================== 
+Frame #89 Out of 100 Triggered Frames 
+
+ Frame 89 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  10 (of 1440 total symbols)
+Bit Errors:  10 (of 5760 total bits)
+Avg. EVM: 1.906278% 
+SNR: 1.719814e+01 dB 
+ =============================== 
+Frame #90 Out of 100 Triggered Frames 
+
+ Frame 90 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  9 (of 1440 total symbols)
+Bit Errors:  9 (of 5760 total bits)
+Avg. EVM: 1.942296% 
+SNR: 1.711685e+01 dB 
+ =============================== 
+Frame #91 Out of 100 Triggered Frames 
+
+ Frame 91 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  10 (of 1440 total symbols)
+Bit Errors:  10 (of 5760 total bits)
+Avg. EVM: 1.906797% 
+SNR: 1.719696e+01 dB 
+ =============================== 
+Frame #92 Out of 100 Triggered Frames 
+
+ Frame 92 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  10 (of 1440 total symbols)
+Bit Errors:  10 (of 5760 total bits)
+Avg. EVM: 1.948571% 
+SNR: 1.710284e+01 dB 
+ =============================== 
+Frame #93 Out of 100 Triggered Frames 
+
+ Frame 93 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  9 (of 1440 total symbols)
+Bit Errors:  9 (of 5760 total bits)
+Avg. EVM: 1.909735% 
+SNR: 1.719027e+01 dB 
+ =============================== 
+Frame #94 Out of 100 Triggered Frames 
+
+ Frame 94 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  6 (of 1440 total symbols)
+Bit Errors:  6 (of 5760 total bits)
+Avg. EVM: 1.819065% 
+SNR: 1.740152e+01 dB 
+ =============================== 
+Frame #95 Out of 100 Triggered Frames 
+
+ Frame 95 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  6 (of 1440 total symbols)
+Bit Errors:  6 (of 5760 total bits)
+Avg. EVM: 1.850021% 
+SNR: 1.732823e+01 dB 
+ =============================== 
+Frame #96 Out of 100 Triggered Frames 
+
+ Frame 96 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  5 (of 1440 total symbols)
+Bit Errors:  5 (of 5760 total bits)
+Avg. EVM: 1.786153% 
+SNR: 1.748081e+01 dB 
+ =============================== 
+Frame #97 Out of 100 Triggered Frames 
+
+ Frame 97 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  7 (of 1440 total symbols)
+Bit Errors:  7 (of 5760 total bits)
+Avg. EVM: 1.956932% 
+SNR: 1.708424e+01 dB 
+ =============================== 
+Frame #98 Out of 100 Triggered Frames 
+
+ Frame 98 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  4 (of 1440 total symbols)
+Bit Errors:  4 (of 5760 total bits)
+Avg. EVM: 1.872403% 
+SNR: 1.727601e+01 dB 
+ =============================== 
+Frame #99 Out of 100 Triggered Frames 
+
+ Frame 99 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  7 (of 1440 total symbols)
+Bit Errors:  7 (of 5760 total bits)
+Avg. EVM: 1.868290% 
+SNR: 1.728556e+01 dB 
+ =============================== 
+Frame #100 Out of 100 Triggered Frames 
+
+ Frame 100 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  5 (of 1440 total symbols)
+Bit Errors:  5 (of 5760 total bits)
+Avg. EVM: 1.737813% 
+SNR: 1.759997e+01 dB 
+
+Running: HARDWARE MODE
+HUB: FH4B000003
+BS NODES: ['RF3E000722']
+UE NODES: ['RF3E000665']
+REF NODES: []
+Setting up RX stream 
+
+Setting up RX stream 
+
+burnt beacon to node RF3E000722 FPGA RAM
+BGRG
+TDD schedule of BS node RF3E000722: BGRG
+GGPG
+!!! Set TX_ADVANCE to 235.0 + beacon length 256 = 491.0 !!!
+config_sdr_tdd: UE starting symbol and sample count (0, 491)
+TDD schedule of UE node RF3E000665: GGPG
+burnt data on to node RF3E000665 FPGA RAM
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [0], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [0], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [1], Amplitude = 0
+frame = 0, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [2], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [2], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [2], Amplitude = 0
+frame = 1, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [3], Amplitude = 0
+frame = 2, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [4], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [4], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [4], Amplitude = 0
+frame = 3, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [5], Amplitude = 0
+frame = 4, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [6], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [6], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [6], Amplitude = 0
+frame = 5, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [7], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [7], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [7], Amplitude = 0
+frame = 6, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [8], Amplitude = 0
+frame = 7, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [9], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [9], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [9], Amplitude = 0
+frame = 8, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [10], Amplitude = 0
+frame = 9, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [11], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [11], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [11], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [11], Amplitude = 0
+frame = 10, tries = 4, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [12], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [12], Amplitude = 0
+frame = 11, tries = 2, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [13], Amplitude = 0
+frame = 12, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [14], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [14], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [14], Amplitude = 0
+frame = 13, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [15], Amplitude = 0
+frame = 14, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [16], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [16], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [16], Amplitude = 0
+frame = 15, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [17], Amplitude = 0
+frame = 16, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [18], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [18], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [18], Amplitude = 0
+frame = 17, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [19], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [19], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [19], Amplitude = 0
+frame = 18, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [20], Amplitude = 0
+frame = 19, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [21], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [21], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [21], Amplitude = 0
+frame = 20, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [22], Amplitude = 0
+frame = 21, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [23], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [23], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [23], Amplitude = 0
+frame = 22, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [24], Amplitude = 0
+frame = 23, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [25], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [25], Amplitude = 0
+frame = 24, tries = 2, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [26], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [26], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [26], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [26], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [26], Amplitude = 0
+frame = 25, tries = 5, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [27], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [27], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [27], Amplitude = 0
+frame = 26, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [28], Amplitude = 0
+frame = 27, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [29], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [29], Amplitude = 0
+frame = 28, tries = 2, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [29], Amplitude = 0
+frame = 29, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [30], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [30], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [30], Amplitude = 0
+frame = 30, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [31], Amplitude = 0
+frame = 31, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [32], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [32], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [32], Amplitude = 0
+frame = 32, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [33], Amplitude = 0
+frame = 33, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [34], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [34], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [34], Amplitude = 0
+frame = 34, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [35], Amplitude = 0
+frame = 35, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [36], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [36], Amplitude = 0
+frame = 36, tries = 2, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [37], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [37], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [37], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [37], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [37], Amplitude = 0
+frame = 37, tries = 5, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [38], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [38], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [38], Amplitude = 0
+frame = 38, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [39], Amplitude = 0
+frame = 39, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [40], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [40], Amplitude = 0
+frame = 40, tries = 2, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [42], Amplitude = 0
+frame = 41, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [42], Amplitude = 0
+frame = 42, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [43], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [43], Amplitude = 0
+frame = 43, tries = 2, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [44], Amplitude = 0
+frame = 44, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [45], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [45], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [45], Amplitude = 0
+frame = 45, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [46], Amplitude = 0
+frame = 46, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [47], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [48], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [49], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [49], Amplitude = 0
+frame = 47, tries = 4, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [50], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [50], Amplitude = 0
+frame = 48, tries = 2, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [51], Amplitude = 0
+frame = 49, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [52], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [52], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [52], Amplitude = 0
+frame = 50, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [53], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [53], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [53], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [53], Amplitude = 0
+frame = 51, tries = 4, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [54], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [54], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [54], Amplitude = 0
+frame = 52, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [55], Amplitude = 0
+frame = 53, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [56], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [56], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [56], Amplitude = 0
+frame = 54, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [57], Amplitude = 0
+frame = 55, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [58], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [58], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [58], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [58], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [58], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [58], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [58], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [58], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [58], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [58], Amplitude = 0
+frame = 56, tries = 10, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [59], Amplitude = 0
+frame = 57, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [60], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [60], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [60], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [60], Amplitude = 0
+frame = 58, tries = 4, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [61], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [61], Amplitude = 0
+frame = 59, tries = 2, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [62], Amplitude = 0
+frame = 60, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [63], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [63], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [63], Amplitude = 0
+frame = 61, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [64], Amplitude = 0
+frame = 62, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [65], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [65], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [65], Amplitude = 0
+frame = 63, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [66], Amplitude = 0
+frame = 64, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [67], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [67], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [67], Amplitude = 0
+frame = 65, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [68], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [68], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [68], Amplitude = 0
+frame = 66, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [69], Amplitude = 0
+frame = 67, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [70], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [70], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [70], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [70], Amplitude = 0
+frame = 68, tries = 4, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [71], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [71], Amplitude = 0
+frame = 69, tries = 2, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [72], Amplitude = 0
+frame = 70, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [73], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [73], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [73], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [73], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [73], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [73], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [73], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [73], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [73], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [73], Amplitude = 0
+frame = 71, tries = 10, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [74], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [74], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [74], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [74], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [74], Amplitude = 0
+frame = 72, tries = 5, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [75], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [75], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [75], Amplitude = 0
+frame = 73, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [76], Amplitude = 0
+frame = 74, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [77], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [77], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [77], Amplitude = 0
+frame = 75, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [78], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [78], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [78], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [78], Amplitude = 0
+frame = 76, tries = 4, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [79], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [79], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [79], Amplitude = 0
+frame = 77, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [80], Amplitude = 0
+frame = 78, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [81], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [81], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [81], Amplitude = 0
+frame = 79, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [82], Amplitude = 0
+frame = 80, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [83], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [83], Amplitude = 0
+frame = 81, tries = 2, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [84], Amplitude = 0
+frame = 82, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [85], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [85], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [85], Amplitude = 0
+frame = 83, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [86], Amplitude = 0
+frame = 84, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [87], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [87], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [87], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [87], Amplitude = 0
+frame = 85, tries = 4, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [88], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [88], Amplitude = 0
+frame = 86, tries = 2, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [89], Amplitude = 0
+frame = 87, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [90], Amplitude = 0
+frame = 88, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [91], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [91], Amplitude = 0
+frame = 89, tries = 2, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [92], Amplitude = 0
+frame = 90, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [93], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [93], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [93], Amplitude = 0
+frame = 91, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [94], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [94], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [94], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [94], Amplitude = 0
+frame = 92, tries = 4, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [95], Amplitude = 0
+frame = 93, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [96], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [96], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [96], Amplitude = 0
+frame = 94, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [97], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [97], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [97], Amplitude = 0
+frame = 95, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [98], Amplitude = 0
+frame = 96, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [99], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [99], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [99], Amplitude = 0
+frame = 97, tries = 3, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [100], Amplitude = 0
+frame = 98, tries = 1, all_triggred = True, good_signal = True, amp = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [101], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+Low Signal A Index 0
+Low Signal B Index 0
+LOW SIGNAL A True, LOW SIGNAL B True, BOTH CHAN? False
+Bad Signal At Board 0
+triggers = [101], Amplitude = 0
+!!! Trigger from Hub !!!
+n_samp is: 4096  
+
+reading stream: (ret:ret=4096, flags=6, timeNs=131072), 131072, 0, 2
+LOW SIGNAL A False, LOW SIGNAL B False, BOTH CHAN? False
+triggers = [101], Amplitude = 0
+frame = 99, tries = 3, all_triggred = True, good_signal = True, amp = 0
+Cleaning up streams
+Done!
+Cleaning up streams
+Done!
+ =============================== 
+Frame #1 Out of 100 Triggered Frames 
+[Warning: MATLAB has disabled some advanced graphics rendering features by switching to software OpenGL. For more information, click <a href="matlab:opengl('problems')">here</a>.] 
+
+ Frame 1 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 0.997319% 
+SNR: 2.001166e+01 dB 
+ =============================== 
+Frame #2 Out of 100 Triggered Frames 
+
+ Frame 2 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 0.910959% 
+SNR: 2.040501e+01 dB 
+ =============================== 
+Frame #3 Out of 100 Triggered Frames 
+
+ Frame 3 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 1.015883% 
+SNR: 1.993156e+01 dB 
+ =============================== 
+Frame #4 Out of 100 Triggered Frames 
+
+ Frame 4 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 0.908496% 
+SNR: 2.041677e+01 dB 
+ =============================== 
+Frame #5 Out of 100 Triggered Frames 
+
+ Frame 5 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 0.888400% 
+SNR: 2.051391e+01 dB 
+ =============================== 
+Frame #6 Out of 100 Triggered Frames 
+
+ Frame 6 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 1.134656% 
+SNR: 1.945136e+01 dB 
+ =============================== 
+Frame #7 Out of 100 Triggered Frames 
+
+ Frame 7 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 1.331014% 
+SNR: 1.875817e+01 dB 
+ =============================== 
+Frame #8 Out of 100 Triggered Frames 
+
+ Frame 8 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 1.077543% 
+SNR: 1.967565e+01 dB 
+ =============================== 
+Frame #9 Out of 100 Triggered Frames 
+
+ Frame 9 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  0 (of 1440 total symbols)
+Bit Errors:  0 (of 5760 total bits)
+Avg. EVM: 1.139918% 
+SNR: 1.943126e+01 dB 
+ =============================== 
+Frame #10 Out of 100 Triggered Frames 
+
+ Frame 10 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  25 (of 1440 total symbols)
+Bit Errors:  25 (of 5760 total bits)
+Avg. EVM: 2.822262% 
+SNR: 1.549403e+01 dB 
+ =============================== 
+Frame #11 Out of 100 Triggered Frames 
+
+ Frame 11 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  19 (of 1440 total symbols)
+Bit Errors:  19 (of 5760 total bits)
+Avg. EVM: 2.929095% 
+SNR: 1.533267e+01 dB 
+ =============================== 
+Frame #12 Out of 100 Triggered Frames 
+
+ Frame 12 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  28 (of 1440 total symbols)
+Bit Errors:  28 (of 5760 total bits)
+Avg. EVM: 3.022839% 
+SNR: 1.519585e+01 dB 
+ =============================== 
+Frame #13 Out of 100 Triggered Frames 
+
+ Frame 13 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  23 (of 1440 total symbols)
+Bit Errors:  23 (of 5760 total bits)
+Avg. EVM: 3.044769% 
+SNR: 1.516446e+01 dB 
+ =============================== 
+Frame #14 Out of 100 Triggered Frames 
+
+ Frame 14 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  33 (of 1440 total symbols)
+Bit Errors:  33 (of 5760 total bits)
+Avg. EVM: 2.953957% 
+SNR: 1.529596e+01 dB 
+ =============================== 
+Frame #15 Out of 100 Triggered Frames 
+
+ Frame 15 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  24 (of 1440 total symbols)
+Bit Errors:  24 (of 5760 total bits)
+Avg. EVM: 2.883093% 
+SNR: 1.540141e+01 dB 
+ =============================== 
+Frame #16 Out of 100 Triggered Frames 
+
+ Frame 16 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  20 (of 1440 total symbols)
+Bit Errors:  20 (of 5760 total bits)
+Avg. EVM: 2.950219% 
+SNR: 1.530146e+01 dB 
+ =============================== 
+Frame #17 Out of 100 Triggered Frames 
+
+ Frame 17 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  17 (of 1440 total symbols)
+Bit Errors:  17 (of 5760 total bits)
+Avg. EVM: 2.874440% 
+SNR: 1.541447e+01 dB 
+ =============================== 
+Frame #18 Out of 100 Triggered Frames 
+
+ Frame 18 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  20 (of 1440 total symbols)
+Bit Errors:  20 (of 5760 total bits)
+Avg. EVM: 2.936410% 
+SNR: 1.532183e+01 dB 
+ =============================== 
+Frame #19 Out of 100 Triggered Frames 
+
+ Frame 19 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  25 (of 1440 total symbols)
+Bit Errors:  25 (of 5760 total bits)
+Avg. EVM: 3.079484% 
+SNR: 1.511522e+01 dB 
+ =============================== 
+Frame #20 Out of 100 Triggered Frames 
+
+ Frame 20 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  18 (of 1440 total symbols)
+Bit Errors:  18 (of 5760 total bits)
+Avg. EVM: 2.794374% 
+SNR: 1.553715e+01 dB 
+ =============================== 
+Frame #21 Out of 100 Triggered Frames 
+
+ Frame 21 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  21 (of 1440 total symbols)
+Bit Errors:  21 (of 5760 total bits)
+Avg. EVM: 3.034843% 
+SNR: 1.517864e+01 dB 
+ =============================== 
+Frame #22 Out of 100 Triggered Frames 
+
+ Frame 22 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  17 (of 1440 total symbols)
+Bit Errors:  17 (of 5760 total bits)
+Avg. EVM: 2.686459% 
+SNR: 1.570820e+01 dB 
+ =============================== 
+Frame #23 Out of 100 Triggered Frames 
+
+ Frame 23 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  21 (of 1440 total symbols)
+Bit Errors:  21 (of 5760 total bits)
+Avg. EVM: 2.921009% 
+SNR: 1.534467e+01 dB 
+ =============================== 
+Frame #24 Out of 100 Triggered Frames 
+
+ Frame 24 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  22 (of 1440 total symbols)
+Bit Errors:  22 (of 5760 total bits)
+Avg. EVM: 3.019296% 
+SNR: 1.520094e+01 dB 
+ =============================== 
+Frame #25 Out of 100 Triggered Frames 
+
+ Frame 25 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  23 (of 1440 total symbols)
+Bit Errors:  23 (of 5760 total bits)
+Avg. EVM: 2.747179% 
+SNR: 1.561113e+01 dB 
+ =============================== 
+Frame #26 Out of 100 Triggered Frames 
+
+ Frame 26 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  15 (of 1440 total symbols)
+Bit Errors:  15 (of 5760 total bits)
+Avg. EVM: 2.791042% 
+SNR: 1.554234e+01 dB 
+ =============================== 
+Frame #27 Out of 100 Triggered Frames 
+
+ Frame 27 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  20 (of 1440 total symbols)
+Bit Errors:  20 (of 5760 total bits)
+Avg. EVM: 2.661105% 
+SNR: 1.574938e+01 dB 
+ =============================== 
+Frame #28 Out of 100 Triggered Frames 
+
+ Frame 28 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  20 (of 1440 total symbols)
+Bit Errors:  20 (of 5760 total bits)
+Avg. EVM: 2.712231% 
+SNR: 1.566673e+01 dB 
+ =============================== 
+Frame #29 Out of 100 Triggered Frames 
+
+ Frame 29 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  1180 (of 1440 total symbols)
+Bit Errors:  2546 (of 5760 total bits)
+Avg. EVM: 89.027346% 
+SNR: 5.047657e-01 dB 
+ =============================== 
+Frame #30 Out of 100 Triggered Frames 
+
+ Frame 30 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  23 (of 1440 total symbols)
+Bit Errors:  23 (of 5760 total bits)
+Avg. EVM: 2.724799% 
+SNR: 1.564666e+01 dB 
+ =============================== 
+Frame #31 Out of 100 Triggered Frames 
+
+ Frame 31 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  22 (of 1440 total symbols)
+Bit Errors:  22 (of 5760 total bits)
+Avg. EVM: 2.744173% 
+SNR: 1.561589e+01 dB 
+ =============================== 
+Frame #32 Out of 100 Triggered Frames 
+
+ Frame 32 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  16 (of 1440 total symbols)
+Bit Errors:  16 (of 5760 total bits)
+Avg. EVM: 2.678946% 
+SNR: 1.572036e+01 dB 
+ =============================== 
+Frame #33 Out of 100 Triggered Frames 
+
+ Frame 33 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  22 (of 1440 total symbols)
+Bit Errors:  22 (of 5760 total bits)
+Avg. EVM: 2.611196% 
+SNR: 1.583161e+01 dB 
+ =============================== 
+Frame #34 Out of 100 Triggered Frames 
+
+ Frame 34 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  18 (of 1440 total symbols)
+Bit Errors:  18 (of 5760 total bits)
+Avg. EVM: 2.823058% 
+SNR: 1.549280e+01 dB 
+ =============================== 
+Frame #35 Out of 100 Triggered Frames 
+
+ Frame 35 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  20 (of 1440 total symbols)
+Bit Errors:  20 (of 5760 total bits)
+Avg. EVM: 2.543120% 
+SNR: 1.594633e+01 dB 
+ =============================== 
+Frame #36 Out of 100 Triggered Frames 
+
+ Frame 36 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  16 (of 1440 total symbols)
+Bit Errors:  16 (of 5760 total bits)
+Avg. EVM: 2.664931% 
+SNR: 1.574314e+01 dB 
+ =============================== 
+Frame #37 Out of 100 Triggered Frames 
+
+ Frame 37 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  26 (of 1440 total symbols)
+Bit Errors:  26 (of 5760 total bits)
+Avg. EVM: 2.685525% 
+SNR: 1.570971e+01 dB 
+ =============================== 
+Frame #38 Out of 100 Triggered Frames 
+
+ Frame 38 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  18 (of 1440 total symbols)
+Bit Errors:  18 (of 5760 total bits)
+Avg. EVM: 2.631696% 
+SNR: 1.579764e+01 dB 
+ =============================== 
+Frame #39 Out of 100 Triggered Frames 
+
+ Frame 39 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  22 (of 1440 total symbols)
+Bit Errors:  22 (of 5760 total bits)
+Avg. EVM: 2.549718% 
+SNR: 1.593508e+01 dB 
+ =============================== 
+Frame #40 Out of 100 Triggered Frames 
+
+ Frame 40 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  12 (of 1440 total symbols)
+Bit Errors:  12 (of 5760 total bits)
+Avg. EVM: 2.525218% 
+SNR: 1.597701e+01 dB 
+ =============================== 
+Frame #41 Out of 100 Triggered Frames 
+
+ Frame 41 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  16 (of 1440 total symbols)
+Bit Errors:  16 (of 5760 total bits)
+Avg. EVM: 2.476109% 
+SNR: 1.606230e+01 dB 
+ =============================== 
+Frame #42 Out of 100 Triggered Frames 
+
+ Frame 42 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  17 (of 1440 total symbols)
+Bit Errors:  17 (of 5760 total bits)
+Avg. EVM: 2.711559% 
+SNR: 1.566781e+01 dB 
+ =============================== 
+Frame #43 Out of 100 Triggered Frames 
+
+ Frame 43 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  18 (of 1440 total symbols)
+Bit Errors:  18 (of 5760 total bits)
+Avg. EVM: 2.739868% 
+SNR: 1.562270e+01 dB 
+ =============================== 
+Frame #44 Out of 100 Triggered Frames 
+
+ Frame 44 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  16 (of 1440 total symbols)
+Bit Errors:  16 (of 5760 total bits)
+Avg. EVM: 2.494804% 
+SNR: 1.602964e+01 dB 
+ =============================== 
+Frame #45 Out of 100 Triggered Frames 
+
+ Frame 45 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  16 (of 1440 total symbols)
+Bit Errors:  16 (of 5760 total bits)
+Avg. EVM: 2.495477% 
+SNR: 1.602846e+01 dB 
+ =============================== 
+Frame #46 Out of 100 Triggered Frames 
+
+ Frame 46 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  14 (of 1440 total symbols)
+Bit Errors:  14 (of 5760 total bits)
+Avg. EVM: 2.299181% 
+SNR: 1.638427e+01 dB 
+ =============================== 
+Frame #47 Out of 100 Triggered Frames 
+
+ Frame 47 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  13 (of 1440 total symbols)
+Bit Errors:  13 (of 5760 total bits)
+Avg. EVM: 2.501001% 
+SNR: 1.601886e+01 dB 
+ =============================== 
+Frame #48 Out of 100 Triggered Frames 
+
+ Frame 48 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  64 (of 1440 total symbols)
+Bit Errors:  105 (of 5760 total bits)
+Avg. EVM: 5.482590% 
+SNR: 1.261014e+01 dB 
+ =============================== 
+Frame #49 Out of 100 Triggered Frames 
+
+ Frame 49 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  19 (of 1440 total symbols)
+Bit Errors:  19 (of 5760 total bits)
+Avg. EVM: 2.442624% 
+SNR: 1.612143e+01 dB 
+ =============================== 
+Frame #50 Out of 100 Triggered Frames 
+
+ Frame 50 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  19 (of 1440 total symbols)
+Bit Errors:  19 (of 5760 total bits)
+Avg. EVM: 2.754316% 
+SNR: 1.559986e+01 dB 
+ =============================== 
+Frame #51 Out of 100 Triggered Frames 
+
+ Frame 51 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  18 (of 1440 total symbols)
+Bit Errors:  18 (of 5760 total bits)
+Avg. EVM: 2.374589% 
+SNR: 1.624412e+01 dB 
+ =============================== 
+Frame #52 Out of 100 Triggered Frames 
+
+ Frame 52 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  14 (of 1440 total symbols)
+Bit Errors:  14 (of 5760 total bits)
+Avg. EVM: 2.443606% 
+SNR: 1.611969e+01 dB 
+ =============================== 
+Frame #53 Out of 100 Triggered Frames 
+
+ Frame 53 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  17 (of 1440 total symbols)
+Bit Errors:  17 (of 5760 total bits)
+Avg. EVM: 2.369229% 
+SNR: 1.625393e+01 dB 
+ =============================== 
+Frame #54 Out of 100 Triggered Frames 
+
+ Frame 54 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  17 (of 1440 total symbols)
+Bit Errors:  17 (of 5760 total bits)
+Avg. EVM: 2.289301% 
+SNR: 1.640297e+01 dB 
+ =============================== 
+Frame #55 Out of 100 Triggered Frames 
+
+ Frame 55 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  15 (of 1440 total symbols)
+Bit Errors:  15 (of 5760 total bits)
+Avg. EVM: 2.571750% 
+SNR: 1.589771e+01 dB 
+ =============================== 
+Frame #56 Out of 100 Triggered Frames 
+
+ Frame 56 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  21 (of 1440 total symbols)
+Bit Errors:  21 (of 5760 total bits)
+Avg. EVM: 2.417186% 
+SNR: 1.616690e+01 dB 
+ =============================== 
+Frame #57 Out of 100 Triggered Frames 
+
+ Frame 57 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  11 (of 1440 total symbols)
+Bit Errors:  11 (of 5760 total bits)
+Avg. EVM: 2.336467% 
+SNR: 1.631440e+01 dB 
+ =============================== 
+Frame #58 Out of 100 Triggered Frames 
+
+ Frame 58 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  14 (of 1440 total symbols)
+Bit Errors:  14 (of 5760 total bits)
+Avg. EVM: 2.230953% 
+SNR: 1.651510e+01 dB 
+ =============================== 
+Frame #59 Out of 100 Triggered Frames 
+
+ Frame 59 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  19 (of 1440 total symbols)
+Bit Errors:  19 (of 5760 total bits)
+Avg. EVM: 2.443041% 
+SNR: 1.612069e+01 dB 
+ =============================== 
+Frame #60 Out of 100 Triggered Frames 
+
+ Frame 60 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  17 (of 1440 total symbols)
+Bit Errors:  17 (of 5760 total bits)
+Avg. EVM: 2.243286% 
+SNR: 1.649115e+01 dB 
+ =============================== 
+Frame #61 Out of 100 Triggered Frames 
+
+ Frame 61 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  10 (of 1440 total symbols)
+Bit Errors:  10 (of 5760 total bits)
+Avg. EVM: 2.218248% 
+SNR: 1.653990e+01 dB 
+ =============================== 
+Frame #62 Out of 100 Triggered Frames 
+
+ Frame 62 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  14 (of 1440 total symbols)
+Bit Errors:  14 (of 5760 total bits)
+Avg. EVM: 2.329812% 
+SNR: 1.632679e+01 dB 
+ =============================== 
+Frame #63 Out of 100 Triggered Frames 
+
+ Frame 63 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  19 (of 1440 total symbols)
+Bit Errors:  19 (of 5760 total bits)
+Avg. EVM: 2.993367% 
+SNR: 1.523840e+01 dB 
+ =============================== 
+Frame #64 Out of 100 Triggered Frames 
+
+ Frame 64 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  13 (of 1440 total symbols)
+Bit Errors:  13 (of 5760 total bits)
+Avg. EVM: 2.252443% 
+SNR: 1.647346e+01 dB 
+ =============================== 
+Frame #65 Out of 100 Triggered Frames 
+
+ Frame 65 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  13 (of 1440 total symbols)
+Bit Errors:  13 (of 5760 total bits)
+Avg. EVM: 2.169562% 
+SNR: 1.663628e+01 dB 
+ =============================== 
+Frame #66 Out of 100 Triggered Frames 
+
+ Frame 66 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  16 (of 1440 total symbols)
+Bit Errors:  16 (of 5760 total bits)
+Avg. EVM: 2.149484% 
+SNR: 1.667666e+01 dB 
+ =============================== 
+Frame #67 Out of 100 Triggered Frames 
+
+ Frame 67 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  12 (of 1440 total symbols)
+Bit Errors:  12 (of 5760 total bits)
+Avg. EVM: 2.069264% 
+SNR: 1.684184e+01 dB 
+ =============================== 
+Frame #68 Out of 100 Triggered Frames 
+
+ Frame 68 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  20 (of 1440 total symbols)
+Bit Errors:  20 (of 5760 total bits)
+Avg. EVM: 2.543532% 
+SNR: 1.594563e+01 dB 
+ =============================== 
+Frame #69 Out of 100 Triggered Frames 
+
+ Frame 69 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  13 (of 1440 total symbols)
+Bit Errors:  13 (of 5760 total bits)
+Avg. EVM: 2.186969% 
+SNR: 1.660157e+01 dB 
+ =============================== 
+Frame #70 Out of 100 Triggered Frames 
+
+ Frame 70 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  10 (of 1440 total symbols)
+Bit Errors:  10 (of 5760 total bits)
+Avg. EVM: 2.297581% 
+SNR: 1.638729e+01 dB 
+ =============================== 
+Frame #71 Out of 100 Triggered Frames 
+
+ Frame 71 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  14 (of 1440 total symbols)
+Bit Errors:  14 (of 5760 total bits)
+Avg. EVM: 2.474399% 
+SNR: 1.606530e+01 dB 
+ =============================== 
+Frame #72 Out of 100 Triggered Frames 
+
+ Frame 72 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  13 (of 1440 total symbols)
+Bit Errors:  13 (of 5760 total bits)
+Avg. EVM: 1.962389% 
+SNR: 1.707215e+01 dB 
+ =============================== 
+Frame #73 Out of 100 Triggered Frames 
+
+ Frame 73 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  12 (of 1440 total symbols)
+Bit Errors:  12 (of 5760 total bits)
+Avg. EVM: 2.347717% 
+SNR: 1.629354e+01 dB 
+ =============================== 
+Frame #74 Out of 100 Triggered Frames 
+
+ Frame 74 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  8 (of 1440 total symbols)
+Bit Errors:  8 (of 5760 total bits)
+Avg. EVM: 2.280778% 
+SNR: 1.641917e+01 dB 
+ =============================== 
+Frame #75 Out of 100 Triggered Frames 
+
+ Frame 75 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  12 (of 1440 total symbols)
+Bit Errors:  12 (of 5760 total bits)
+Avg. EVM: 2.135411% 
+SNR: 1.670519e+01 dB 
+ =============================== 
+Frame #76 Out of 100 Triggered Frames 
+
+ Frame 76 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  12 (of 1440 total symbols)
+Bit Errors:  12 (of 5760 total bits)
+Avg. EVM: 1.909052% 
+SNR: 1.719182e+01 dB 
+ =============================== 
+Frame #77 Out of 100 Triggered Frames 
+
+ Frame 77 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  9 (of 1440 total symbols)
+Bit Errors:  9 (of 5760 total bits)
+Avg. EVM: 1.992641% 
+SNR: 1.700571e+01 dB 
+ =============================== 
+Frame #78 Out of 100 Triggered Frames 
+
+ Frame 78 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  8 (of 1440 total symbols)
+Bit Errors:  8 (of 5760 total bits)
+Avg. EVM: 2.099387% 
+SNR: 1.677907e+01 dB 
+ =============================== 
+Frame #79 Out of 100 Triggered Frames 
+
+ Frame 79 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  11 (of 1440 total symbols)
+Bit Errors:  11 (of 5760 total bits)
+Avg. EVM: 1.981772% 
+SNR: 1.702946e+01 dB 
+ =============================== 
+Frame #80 Out of 100 Triggered Frames 
+
+ Frame 80 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  11 (of 1440 total symbols)
+Bit Errors:  11 (of 5760 total bits)
+Avg. EVM: 2.103720% 
+SNR: 1.677012e+01 dB 
+ =============================== 
+Frame #81 Out of 100 Triggered Frames 
+
+ Frame 81 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  11 (of 1440 total symbols)
+Bit Errors:  11 (of 5760 total bits)
+Avg. EVM: 2.488196% 
+SNR: 1.604115e+01 dB 
+ =============================== 
+Frame #82 Out of 100 Triggered Frames 
+
+ Frame 82 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  8 (of 1440 total symbols)
+Bit Errors:  8 (of 5760 total bits)
+Avg. EVM: 2.075215% 
+SNR: 1.682937e+01 dB 
+ =============================== 
+Frame #83 Out of 100 Triggered Frames 
+
+ Frame 83 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  11 (of 1440 total symbols)
+Bit Errors:  11 (of 5760 total bits)
+Avg. EVM: 2.387320% 
+SNR: 1.622089e+01 dB 
+ =============================== 
+Frame #84 Out of 100 Triggered Frames 
+
+ Frame 84 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  8 (of 1440 total symbols)
+Bit Errors:  8 (of 5760 total bits)
+Avg. EVM: 1.982744% 
+SNR: 1.702733e+01 dB 
+ =============================== 
+Frame #85 Out of 100 Triggered Frames 
+
+ Frame 85 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  14 (of 1440 total symbols)
+Bit Errors:  14 (of 5760 total bits)
+Avg. EVM: 2.180206% 
+SNR: 1.661502e+01 dB 
+ =============================== 
+Frame #86 Out of 100 Triggered Frames 
+
+ Frame 86 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  12 (of 1440 total symbols)
+Bit Errors:  12 (of 5760 total bits)
+Avg. EVM: 2.037529% 
+SNR: 1.690896e+01 dB 
+ =============================== 
+Frame #87 Out of 100 Triggered Frames 
+
+ Frame 87 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  6 (of 1440 total symbols)
+Bit Errors:  6 (of 5760 total bits)
+Avg. EVM: 1.879583% 
+SNR: 1.725938e+01 dB 
+ =============================== 
+Frame #88 Out of 100 Triggered Frames 
+
+ Frame 88 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  6 (of 1440 total symbols)
+Bit Errors:  6 (of 5760 total bits)
+Avg. EVM: 1.859145% 
+SNR: 1.730687e+01 dB 
+ =============================== 
+Frame #89 Out of 100 Triggered Frames 
+
+ Frame 89 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  7 (of 1440 total symbols)
+Bit Errors:  7 (of 5760 total bits)
+Avg. EVM: 2.107855% 
+SNR: 1.676159e+01 dB 
+ =============================== 
+Frame #90 Out of 100 Triggered Frames 
+
+ Frame 90 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  12 (of 1440 total symbols)
+Bit Errors:  12 (of 5760 total bits)
+Avg. EVM: 2.069117% 
+SNR: 1.684215e+01 dB 
+ =============================== 
+Frame #91 Out of 100 Triggered Frames 
+
+ Frame 91 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  6 (of 1440 total symbols)
+Bit Errors:  6 (of 5760 total bits)
+Avg. EVM: 2.038369% 
+SNR: 1.690717e+01 dB 
+ =============================== 
+Frame #92 Out of 100 Triggered Frames 
+
+ Frame 92 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  9 (of 1440 total symbols)
+Bit Errors:  9 (of 5760 total bits)
+Avg. EVM: 1.841238% 
+SNR: 1.734890e+01 dB 
+ =============================== 
+Frame #93 Out of 100 Triggered Frames 
+
+ Frame 93 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  10 (of 1440 total symbols)
+Bit Errors:  10 (of 5760 total bits)
+Avg. EVM: 2.019221% 
+SNR: 1.694816e+01 dB 
+ =============================== 
+Frame #94 Out of 100 Triggered Frames 
+
+ Frame 94 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  10 (of 1440 total symbols)
+Bit Errors:  10 (of 5760 total bits)
+Avg. EVM: 2.003360% 
+SNR: 1.698241e+01 dB 
+ =============================== 
+Frame #95 Out of 100 Triggered Frames 
+
+ Frame 95 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  5 (of 1440 total symbols)
+Bit Errors:  5 (of 5760 total bits)
+Avg. EVM: 1.843435% 
+SNR: 1.734372e+01 dB 
+ =============================== 
+Frame #96 Out of 100 Triggered Frames 
+
+ Frame 96 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  8 (of 1440 total symbols)
+Bit Errors:  8 (of 5760 total bits)
+Avg. EVM: 1.640979% 
+SNR: 1.784897e+01 dB 
+ =============================== 
+Frame #97 Out of 100 Triggered Frames 
+
+ Frame 97 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  9 (of 1440 total symbols)
+Bit Errors:  9 (of 5760 total bits)
+Avg. EVM: 1.753201% 
+SNR: 1.756168e+01 dB 
+ =============================== 
+Frame #98 Out of 100 Triggered Frames 
+
+ Frame 98 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  8 (of 1440 total symbols)
+Bit Errors:  8 (of 5760 total bits)
+Avg. EVM: 1.755691% 
+SNR: 1.755552e+01 dB 
+ =============================== 
+Frame #99 Out of 100 Triggered Frames 
+
+ Frame 99 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  7 (of 1440 total symbols)
+Bit Errors:  7 (of 5760 total bits)
+Avg. EVM: 1.674533% 
+SNR: 1.776106e+01 dB 
+ =============================== 
+Frame #100 Out of 100 Triggered Frames 
+
+ Frame 100 Results:
+Transmission Mode: uplink 
+Num Bytes:   720
+Sym Errors:  5 (of 1440 total symbols)
+Bit Errors:  5 (of 5760 total bits)
+Avg. EVM: 1.792448% 
+SNR: 1.746554e+01 dB 
+rl_ofdm_siso
