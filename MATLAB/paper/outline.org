@@ -1,12 +1,26 @@
-* TODO Choose a template.
+* DONE Choose a template.
   - There are many freely available LaTeX templates that you can use to get started. You can find templates for specific types of reports, such as technical reports, journal articles, and dissertations.
 * TODO Structure your report.
   - Your report should be well-organized and easy to read. A typical structure for an engineering project research report includes the following sections:
 
-** TODO Title page: This page includes the title of your report, your name, and the date.
+** DONE Title page: This page includes the title of your report, your name, and the date.
 
-** TODO Abstract: This is a brief summary of your report, typically one or two paragraphs long.
+** DONE Abstract: This is a brief summary of your report, typically one or two paragraphs long.
 ** TODO Introduction: This section provides background information on your project and introduces your research question.
+  - Potential advantages of CPSCM
+    - Uplink advantage, low power PAPR
+    - Simplified Equalization
+    - Potential for adaptive channel equalization
+  - Potential challenges
+    - Different Sampling rate between OFDM and CPSCM
+    - Phase drift
+      - Increasing sampling rate improving channel estimation overhead
+    - Higher sampling rate for equivalent sampling rate
+  - Performance Envelope and Characterization
+    - OFDM baseline
+    - Hardware limitations
+    - 
+** 
 ** TODO Literature review: This section summarizes the existing research on your topic.
 ** TODO Methodology: This section describes how you conducted your research.
 ** TODO Results: This section presents your findings.

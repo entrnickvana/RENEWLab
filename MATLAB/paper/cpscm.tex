@@ -24,6 +24,7 @@
 \usepackage[english]{babel}
 \usepackage{sectsty}
 \usepackage{url, lipsum}
+\graphicspath{{./images}}
 
 
 \newcommand{\HRule}[1]{\rule{\linewidth}{#1}}
@@ -37,7 +38,7 @@
 \pagestyle{fancy}
 \fancyhf{}
 \setlength\headheight{15pt}
-\fancyhead[L]{BE PROJECT}
+\fancyhead[L]{CP-SCM Experiments}
 
 %-------------------------------------------------------------------------------
 % TITLE PAGE
@@ -83,9 +84,12 @@ Uplink Edge use case. PAPR.
 Challenge of phase drift and channel equalization without consistent pilots.\\\\\\
 
 \section*{Conceptual Overview}
-\subsection{Typical OFDM}
-\subsection{Sampling Rate and Bandwidth}
-\subsection{Payload Length and Phase Correction}
+\subsection*{Typical OFDM}
+\subsection*{Sampling Rate and Bandwidth}
+\subsection*{Payload Length and Phase Correction}
+\paragraph*{Cyclic Prefix Channel Estimation}
+\subsection*{State Space Random Walk Channel Characterization}
+\paragraph*{Random Walk Channel Model} 
 \section*{Methodology}
 
 \subsection*{Baseline OFDM vs. CPSCM Simulations}
@@ -103,12 +107,15 @@ Now the capacity of different antenna systems will be studied in order
 to see the dramatic increases in capacity obtained by using MIMO systems. The expressions are approximate, but they give an intuition for
 the derived benefits in terms of channel capacity when using multiple
 antennas
+
+\includegraphics[width=\columnwidth]{channel_est.png}
 \section*{Types of smart antenna technology}
 \subsection*{Single Input, Single Output}
 Assume that for a given channel, whose bandwidth is B, and a given
 transmitter power of P the signal at the receiver has an average signal
 to noise ratio of SNR.\\
-C = B*log2(1 + SNR) 
+C = B*log2(1 + SNR)
+
 \subsection*{Single Input, Multiple Output}
 For the SIMO system, we have NR antennas at the receiver. If the signals
 received on these antennas have on average the same amplitude, then
