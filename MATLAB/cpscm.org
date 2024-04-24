@@ -1,29 +1,33 @@
 * TODO Baseline Captures
 ** TODO SISO SIM
   1) [X] Tar and copy repo with artifacts
-  2) [ ] Create output measure for PAPR
-  3) [X] Phase correct using LTS rather than adjacent carrier pilots, !!! THIS DOES NOT WORK !!!
-  4) [ ] Remove Zeros frame IQ scatter plot
-  5) [ ] Fix output to show
+  2) [ ] create random walk model from Farhang's book, chapter 14, state space model
+  3) [ ] Create output measure for PAPR
+     - [ ] Apply retroactive increased sampling rate to show improvement on channel equalization       
+  4) [ ] Simulate higher sampling rate
+     - [ ] Attempt to model RMS delay spread or capture from actual experiments
+
+  5) [X] Phase correct using LTS rather than adjacent carrier pilots, !!! THIS DOES NOT WORK !!!
+  6) [ ] Remove Zeros frame IQ scatter plot
+  7) [ ] Fix output to show
      - [ ] correct symbols, bytes
      - [ ] correct RX vect plot
      - [ ] 
-  6) [ ] Capture noise floor
-  7) [ ] Sweep Power for BER			
-  8) [ ] Plot PSD				
-  9) [ ] Show phase offset			
-  10) [ ] Address phase offset			
-  11) [ ] Fix print output to refect accurate SNR
+  8) [ ] Capture noise floor
+  9) [ ] Sweep Power for BER			
+  10) [ ] Plot PSD				
+  11) [ ] Show phase offset			
+  12) [ ] Address phase offset			
+  13) [ ] Fix print output to refect accurate SNR
 ** TODO SISO Captures
   1) [ ] Measure noise floor
   2) [ ] Create output measure for PAPR
-  3) [ ] Capture noise floor			   
-  4) [ ] Plot PSD				   
-  5) [X] Sweep SISO Power for BER		   
-  6) [X] Sweep SISO frame symbol count to 47	   
-  7) [ ] Ask about potential sampling rate changes 
-  8) [X] Show phase offset			   
-  9) [ ] Address phase offset                      
+  3) [ ] Plot PSD				   
+  4) [X] Sweep SISO Power for BER		   
+  5) [X] Sweep SISO frame symbol count to 47	   
+  6) [ ] Ask about potential sampling rate changes 
+  7) [X] Show phase offset			   
+  8) [ ] Address phase offset                      
     
 ** TODO MIMO SIM
   1) [ ] Create output measure for PAPR
