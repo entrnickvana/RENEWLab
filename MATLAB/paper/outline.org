@@ -1,0 +1,22 @@
+* TODO Choose a template.
+  - There are many freely available LaTeX templates that you can use to get started. You can find templates for specific types of reports, such as technical reports, journal articles, and dissertations.
+* TODO Structure your report.
+  - Your report should be well-organized and easy to read. A typical structure for an engineering project research report includes the following sections:
+
+** TODO Title page: This page includes the title of your report, your name, and the date.
+
+** TODO Abstract: This is a brief summary of your report, typically one or two paragraphs long.
+** TODO Introduction: This section provides background information on your project and introduces your research question.
+** TODO Literature review: This section summarizes the existing research on your topic.
+** TODO Methodology: This section describes how you conducted your research.
+** TODO Results: This section presents your findings.
+** TODO Discussion: This section discusses the implications of your findings and suggests directions for future research.
+** TODO Conclusion: This section summarizes the main points of your report and provides your overall conclusions.
+
+* TODO Writing TODO
+ 1) [ ] Use LaTeX commands. 
+ 2) [ ] LaTeX commands are used to format your text, insert figures and tables, and create bibliographies. You can find a list of LaTeX commands in the LaTeX documentation.
+ 3) [ ] Compile your report.
+ 4) [ ] compile it to generate a PDF file. You can do this using a LaTeX compiler, such as pdflatex or xelatex.
+ 5) [ ] Cite
+ 6) [ ] Proofread your report.
