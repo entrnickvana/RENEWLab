@@ -8,6 +8,8 @@
 %
 % We define two modes: OTA (Over-the-air) and SIM_MOD (simulation).
 % In simulation mode we simply use a Rayleigh channel and iterate over
+
+
 % different SNR values (sim_SNR_db variable). Within each iteration, only
 % a single frame transmission takes place.
 % In SIM_MOD, the script explores Bit Error Rate (BER) as a function of
@@ -82,6 +84,7 @@ SC_IND_DATA             = [2:7 9:21 23:27 39:43 45:57 59:64];     % Data subcarr
 N_SC                    = 64;                                     % Number of subcarriers
 CP_LEN                  = 16;                                     % Cyclic prefix length
 N_DATA_SYMS             = N_OFDM_SYM * length(SC_IND_DATA);       % Number of data symbols (one per data-bearing subcarrier per OFDM symbol)
+N_DATA_SYMS_SCM             = N_OFDM_SYM;       % Number of data symbols (one per data-bearing subcarrier per OFDM symbol)
 N_LTS_SYM               = 2;                                      % Number of 
 N_SYM_SAMP              = N_SC + CP_LEN;                          % Number of samples that will go over the air
 N_ZPAD_PRE              = 90;                                     % Zero-padding prefix for Iris
@@ -102,7 +105,7 @@ preamble = [lts_t(33:64) lts_t lts_t];
 
 %% Generate a payload of random integers
 tx_data = randi(MOD_ORDER, 1, N_DATA_SYMS) - 1;
-tx_data_scm = tx_data(1:30);
+tx_data_scm = tx_data(1:N_OFDM_SYM);
 tx_data_scm_up48 = upsample(tx_data_scm, 48);
 
 tx_syms = mod_sym(tx_data, MOD_ORDER);
@@ -179,7 +182,7 @@ tx_vec_iris = TX_SCALE .* tx_vec_iris ./ max(abs(tx_vec_iris));
 if SIM_MODE
     disp("Running: AWGN SIMULATION MODE");
     % AWGN only
-    snr = 2;
+    snr = 10;
     tx_var = mean(mean(abs(tx_vec_iris).^2 )) * (64/48);
     nvar =  tx_var / 10^(0.1*snr); % noise variance per data sample
 
@@ -409,7 +412,7 @@ for frm_idx = 1:numGoodFrames
     bit_errs_scm = length(find(dec2bin(bitxor(tx_data_scm, rx_data_scm),8) == '1'));
 
     ber_SIM = bit_errs/(N_DATA_SYMS * log2(MOD_ORDER));
-    ber_SIM_scm = bit_errs_scm/(N_DATA_SYMS/48 * log2(MOD_ORDER));
+    ber_SIM_scm = bit_errs_scm/(N_DATA_SYMS_SCM * log2(MOD_ORDER));
 
     % EVM & SNR
     % Do yourselves. Calculate EVM and effective SNR:
@@ -582,7 +585,7 @@ for frm_idx = 1:numGoodFrames
     fprintf('\n Frame %d Results:\n', frm_idx);
     fprintf('Transmission Mode: %s \n', tx_direction);
     fprintf('Num Bytes:   %d\n', N_DATA_SYMS * log2(MOD_ORDER) / 8);
-    fprintf('Sym Errors:  %d (of %d total symbols)\n', sym_errs_scm, N_DATA_SYMS);
-    fprintf('Bit Errors:  %d (of %d total bits)\n', bit_errs_scm, N_DATA_SYMS * log2(MOD_ORDER));
+    fprintf('Sym Errors:  %d (of %d total symbols)\n', sym_errs_scm, N_DATA_SYMS_SCM);
+    fprintf('Bit Errors:  %d (of %d total bits)\n', bit_errs_scm, N_DATA_SYMS_SCM * log2(MOD_ORDER));
     fprintf('Avg. EVM: %f%% \n', 100*aevms_scm);
 end
