@@ -48,7 +48,7 @@ DEBUG                   = 0;
 WRITE_PNG_FILES         = 0;            % Enable writing plots to PNG
 PLOT                    = PLOT_EXT;
 FIND_OPTIMAL_GAINS      = 0;            % Evaluates different TX/RX gain combinations and returns the combination that yields the largest number of detected beacons
-SIM_MODE                = 1;            % Enable for AWGN sim, disable to run hardware
+SIM_MODE                = 0;            % Enable for AWGN sim, disable to run hardware
 APPLY_CFO_CORRECTION    = APPLY_CFO_CORRECTION_EXT;
 
 %Iris params:
