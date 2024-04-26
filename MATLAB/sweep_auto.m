@@ -65,13 +65,13 @@ for ord_idx = 1:length(MOD_ORDER_EXT_ARR)
     ch_est_arr  = [ch_est_arr];
 
     if(ord_idx == 1)
-        scatter(snr_arr(cnt), bit_err_arr(cnt)/N_DATA_SYMS * log2(MOD_ORDER), 'r*'); hold on;
+        scatter(snr_arr(cnt), 10*log10(bit_err_arr(cnt)/N_DATA_SYMS * log2(MOD_ORDER)), 'r*'); hold on;
     elseif(ord_idx == 2)
-        scatter(snr_arr(cnt), bit_err_arr(cnt)/N_DATA_SYMS * log2(MOD_ORDER), 'bl*'); hold on;
+        scatter(snr_arr(cnt), 10*log10(bit_err_arr(cnt)/N_DATA_SYMS * log2(MOD_ORDER)), 'bl*'); hold on;
     elseif(ord_idx == 3)
-        scatter(snr_arr(cnt), bit_err_arr(cnt)/N_DATA_SYMS * log2(MOD_ORDER), 'b*'); hold on;
+        scatter(snr_arr(cnt), 10*log10(bit_err_arr(cnt)/N_DATA_SYMS * log2(MOD_ORDER)), 'b*'); hold on;
     elseif(ord_idx == 4)
-        scatter(snr_arr(cnt), bit_err_arr(cnt)/N_DATA_SYMS * log2(MOD_ORDER), 'b*'); hold on;
+        scatter(snr_arr(cnt), 10*log10(bit_err_arr(cnt)/N_DATA_SYMS * log2(MOD_ORDER)), 'or*'); hold on;
     end
     
   end
@@ -89,6 +89,6 @@ for ord_idx = 1:length(MOD_ORDER_EXT_ARR)
   
 end
 figure;
-scatter(snr_arr, bit_err_arr/N_DATA_SYMS * log2(MOD_ORDER), 'bl*');
+scatter(snr_arr, 10*log10(bit_err_arr/N_DATA_SYMS * log2(MOD_ORDER)), 'bl*)');
 
 
