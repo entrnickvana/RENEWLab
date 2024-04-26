@@ -12,9 +12,13 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \documentclass[12pt]{report}
-\usepackage[a4paper]{geometry}
-\usepackage[myheadings]{fullpage}
+%\usepackage[a4paper]{geometry}
+%\usepackage[myheadings]{fullpage}
+%\usepackage{fancyhdr}
+%\usepackage[a4paper,width=150mm,top=25mm,bottom=25mm]{geometry}
 \usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
 \usepackage{lastpage}
 \usepackage{graphicx, wrapfig, subcaption, setspace, booktabs}
 \usepackage[T1]{fontenc}
@@ -107,6 +111,13 @@ Now the capacity of different antenna systems will be studied in order
 to see the dramatic increases in capacity obtained by using MIMO systems. The expressions are approximate, but they give an intuition for
 the derived benefits in terms of channel capacity when using multiple
 antennas
+
+\includegraphics[width=\columnwidth]{channel_est.png}
+
+\includegraphics[width=\columnwidth]{CHANNEL_EST_TO_COMPARE_PSD.png}
+\includegraphics[width=\columnwidth]{EVM_GROWTH_OFDM_16_FRM_45.png}
+\includegraphics[width=\columnwidth]{phase_drift_OFDM_16QAM_45_FRM.png}
+\includegraphics[width=\columnwidth]{RX_VS_TX_PSD.png}
 
 \includegraphics[width=\columnwidth]{channel_est.png}
 \section*{Types of smart antenna technology}

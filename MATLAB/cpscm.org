@@ -14,7 +14,10 @@
      - [ ] correct RX vect plot
      - [ ] 
   8) [ ] Capture noise floor
-  9) [ ] Sweep Power for BER			
+  9) [ ] Sweep Power for BER
+     - [ ] BPSK
+     - [ ] QPSK
+     - [ ] 16QAM
   10) [ ] Plot PSD				
   11) [ ] Show phase offset			
   12) [ ] Address phase offset			
@@ -22,12 +25,23 @@
 ** TODO SISO Captures
   1) [ ] Measure noise floor
   2) [ ] Create output measure for PAPR
-  3) [ ] Plot PSD				   
-  4) [X] Sweep SISO Power for BER		   
-  5) [X] Sweep SISO frame symbol count to 47	   
-  6) [ ] Ask about potential sampling rate changes 
-  7) [X] Show phase offset			   
-  8) [ ] Address phase offset                      
+     1) [ ] PAPR=max((abs(x)).^2)/mean((abs(x)).^2)
+  3) [ ] Plot PSD
+  4) [ ] Calculate PAPR
+     1) [ ] PAPR=max((abs(x)).^2)/mean((abs(x)).^2)
+  5) [-] Sweep SISO Power for BER OFDM
+     + [ ] BPSK
+     + [ ] QPSK
+     + [X] 16QAM
+
+  6) [ ] Sweep SISO Power for BER CPSCM
+     - [ ] BPSK
+     - [ ] QPSK
+     - [ ] 16QAM
+  7) [X] Sweep SISO frame symbol count to 47	   
+  8) [ ] Ask about potential sampling rate changes 
+  9) [X] Show phase offset			   
+  10) [ ] Address phase offset                      
     
 ** TODO MIMO SIM
   1) [ ] Create output measure for PAPR
@@ -64,6 +78,30 @@
  |                                         |                                           |                         |     |     |     |     |
  |                                         |                                           |                         |     |     |     |     |
  |                                         |                                           |                         |     |     |     |     |
+
+
+* TODO Thursday
+  - [ ] Check if cpscm is working
+  - [ ] Check dimensions of rx_vec_iris
+  - [ ] Make copies of rl_ofdm_mimo, siso, cpscm etc
+  - [ ] Crude plot
+    - [ ] Manually run single frames and plot SNR vs. bit error
+  - [ ] Create simple high level aggregator
+    - [ ] Power level
+    - [ ] Mod order/type
+    - [ ] Sym Errors
+    - [ ] Bit Errors
+    - [ ] EVM
+    - [ ] SNR
+    - [ ] PAPR
+      
+      
+
+    - [ ] 
+     
+
+
+
 
 
 

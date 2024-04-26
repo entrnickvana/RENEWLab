@@ -521,6 +521,11 @@ for frm_idx = 1:numGoodFrames
         hold on;
 
         %plot(tx_syms_mat(:),'*', 'MarkerSize',16, 'LineWidth',2, 'color', fst_clr);
+        tx_syms_scm_rm_zeros = tx_syms_scm;
+        tx_syms_scm_rm_zeros(abs(tx_syms_scm_rm_zeros) == 0) = nan + i*nan;
+        %plot(tx_syms_scm(:),'*', 'MarkerSize',16, 'LineWidth',2, 'color', fst_clr);        
+        plot(tx_syms_scm_rm_zeros(:),'*', 'MarkerSize',16, 'LineWidth',2, 'color', fst_clr);          
+        %plot(tx_syms_mat(:),'*', 'MarkerSize',16, 'LineWidth',2, 'color', fst_clr);
         plot(tx_syms_scm(:),'*', 'MarkerSize',16, 'LineWidth',2, 'color', fst_clr);        
         title('Tx and Rx Constellations')
         legend('Rx','Tx','Location','EastOutside');
@@ -575,6 +580,8 @@ for frm_idx = 1:numGoodFrames
 
     %% Calculate Rx stat
 
+    rx_data_ag
+
     sym_errs = sum(tx_data ~= rx_data);
     sym_errs_scm = sum(tx_data_scm ~= rx_data_scm);    
     bit_errs = length(find(dec2bin(bitxor(tx_data, rx_data),8) == '1'));
@@ -584,7 +591,7 @@ for frm_idx = 1:numGoodFrames
 
     fprintf('\n Frame %d Results:\n', frm_idx);
     fprintf('Transmission Mode: %s \n', tx_direction);
-    fprintf('Num Bytes:   %d\n', N_DATA_SYMS * log2(MOD_ORDER) / 8);
+    fprintf('Num Bytes:   %d\n', N_DATA_SYMS_SCM * log2(MOD_ORDER) / 8);
     fprintf('Sym Errors:  %d (of %d total symbols)\n', sym_errs_scm, N_DATA_SYMS_SCM);
     fprintf('Bit Errors:  %d (of %d total bits)\n', bit_errs_scm, N_DATA_SYMS_SCM * log2(MOD_ORDER));
     fprintf('Avg. EVM: %f%% \n', 100*aevms_scm);
