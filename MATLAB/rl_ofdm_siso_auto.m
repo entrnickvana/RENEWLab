@@ -36,34 +36,34 @@ close all;
 
 pe = pyenv;
 %disp(pe);
-if pe.Status == 'NotLoaded'
-    pyversion /usr/bin/python3
-    py.print() %weird bug where py isn't loaded in an external script
-end
+% if pe.Status == 'NotLoaded'
+%     pyversion /usr/bin/python3
+%     py.print() %weird bug where py isn't loaded in an external script
+% end
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Parameters
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 DEBUG                   = 0;
 WRITE_PNG_FILES         = 0;            % Enable writing plots to PNG
-PLOT                    = 1;
+PLOT                    = PLOT_EXT;
 FIND_OPTIMAL_GAINS      = 0;            % Evaluates different TX/RX gain combinations and returns the combination that yields the largest number of detected beacons
 SIM_MODE                = 1;            % Enable for AWGN sim, disable to run hardware
-APPLY_CFO_CORRECTION    = 0;
+APPLY_CFO_CORRECTION    = APPLY_CFO_CORRECTION_EXT;
 
 %Iris params:
 N_BS_NODE               = 1;
 N_UE                    = 1;
-TX_FRQ                  = 3.544e9;
+TX_FRQ                  = 3.55e9;
 RX_FRQ                  = TX_FRQ;
 ANT_BS                  = 'A';          % SISO: only one antenna supported
 ANT_UE                  = 'A';          % SISO: only one antenna supported
 TX_GN                   = 100;
-TX_GN_UE                = 100;
+TX_GN_UE                = TX_GN_EXT;
 RX_GN                   = 65;
 SMPL_RT                 = 5e6;
 TX_SCALE                = 1;            % Scale for Tx waveform ([0:1])
-N_FRM                   = 5;
+N_FRM                   = N_FRM_EXT;
 TX_ADVANCE              = 235;          % !!!! IMPORTANT: DO NOT MODIFY - Default is 235!!!!
 
 bs_ids = string.empty();
@@ -73,8 +73,8 @@ ue_sched = string.empty();
 
 
 % Waveform params
-N_OFDM_SYM              = 30;         % Number of OFDM symbols for burst, it needs to be less than 47
-MOD_ORDER               = 16;           % Modulation order (2/4/16/64 = BSPK/QPSK/16-QAM/64-QAM)
+N_OFDM_SYM              = N_OFDM_SYM_EXT;         % Number of OFDM symbols for burst, it needs to be less than 47
+MOD_ORDER               = MOD_ORDER_EXT;           % Modulation order (2/4/16/64 = BSPK/QPSK/16-QAM/64-QAM)
 
 % OFDM params
 SC_IND_PILOTS           = [8 22 44 58];                           % Pilot subcarrier indices
@@ -82,6 +82,7 @@ SC_IND_DATA             = [2:7 9:21 23:27 39:43 45:57 59:64];     % Data subcarr
 N_SC                    = 64;                                     % Number of subcarriers
 CP_LEN                  = 16;                                     % Cyclic prefix length
 N_DATA_SYMS             = N_OFDM_SYM * length(SC_IND_DATA);       % Number of data symbols (one per data-bearing subcarrier per OFDM symbol)
+N_DATA_SYMS_SCM             = N_OFDM_SYM;       % Number of data symbols (one per data-bearing subcarrier per OFDM symbol)
 N_LTS_SYM               = 2;                                      % Number of 
 N_SYM_SAMP              = N_SC + CP_LEN;                          % Number of samples that will go over the air
 N_ZPAD_PRE              = 90;                                     % Zero-padding prefix for Iris
@@ -89,7 +90,7 @@ N_ZPAD_POST             = nan;                                    % (defined bel
 
 % Rx processing params
 FFT_OFFSET                    = 0;          % Number of CP samples to use in FFT (on average)
-DO_APPLY_PHASE_ERR_CORRECTION = 1;           % Enable Residual CFO estimation/correction
+DO_APPLY_PHASE_ERR_CORRECTION = DO_APPLY_PHASE_ERR_CORRECTION_EXT;           % Enable Residual CFO estimation/correction
 
 %% Define the preamble
 
@@ -102,11 +103,26 @@ preamble = [lts_t(33:64) lts_t lts_t];
 
 %% Generate a payload of random integers
 tx_data = randi(MOD_ORDER, 1, N_DATA_SYMS) - 1;
+tx_data_scm = tx_data(1:N_OFDM_SYM);
+tx_data_scm_up48 = upsample(tx_data_scm, 48);
 
 tx_syms = mod_sym(tx_data, MOD_ORDER);
 
+% Cut number of symbols by factor of 48 as only a single carrier is
+% carrying data
+tx_syms_scm = mod_sym(tx_data_scm, MOD_ORDER);
+tx_syms_scm_pre_upsample = tx_syms_scm;
+tx_syms_scm_up48 = upsample(tx_syms_scm, 48);
+
+
+% Upsample to fill unused subcarriers
+CYCLES_PER_SYMBOL_CPSCM = 1;
+tx_syms_scm = upsample(tx_syms_scm, N_SC); % length 48
+tx_syms_scm = circshift(tx_syms_scm, CYCLES_PER_SYMBOL_CPSCM);  % Shift into only subcarrier which will be the single carrier
+
 % Reshape the symbol vector to a matrix with one column per OFDM symbol
 tx_syms_mat = reshape(tx_syms, length(SC_IND_DATA), N_OFDM_SYM);
+tx_syms_mat_scm = reshape(tx_syms_scm, N_SC, N_OFDM_SYM);
 
 % Define the pilot tone values as BPSK symbols
 pilots = [1 1 -1 1].';
@@ -126,24 +142,38 @@ fdd_mat(SC_IND_PILOTS, :) = pilots_mat;
 % Do yourselves: get TD samples:
 tdd_tx_payload_mat = ifft(fdd_mat, N_SC, 1);
 
+tdd_tx_payload_mat_scm = ifft(tx_syms_mat_scm, N_SC);
+
 % Insert the cyclic prefix
 if(CP_LEN > 0)
     % Do yourselves: Insert CP
     tx_cp = tdd_tx_payload_mat((end-CP_LEN+1 : end), :);
     tdd_tx_payload_mat = [tx_cp; tdd_tx_payload_mat];
+
+    tx_cp_scm = tdd_tx_payload_mat_scm((end-CP_LEN+1:end), :);
+    tdd_tx_payload_mat_scm = [tx_cp_scm; tdd_tx_payload_mat_scm];
 end
 
 % Reshape to a vector
 tx_payload_vec = reshape(tdd_tx_payload_mat, 1, numel(tdd_tx_payload_mat));
-
+tx_payload_vec_scm = reshape(tdd_tx_payload_mat_scm, 1, numel(tdd_tx_payload_mat));
 
 % Construct the full time-domain OFDM waveform
 MAX_N_SAMPS = 4096;    % Maximum number of samples we can write to the FPGA buffer for TX
 N_ZPAD_POST = MAX_N_SAMPS - N_ZPAD_PRE - length(preamble) - length(tx_payload_vec);
 tx_vec = [zeros(1,N_ZPAD_PRE) preamble tx_payload_vec zeros(1,N_ZPAD_POST)];
 
-% Leftover from zero padding:
-tx_vec_iris = tx_vec.';
+N_ZPAD_POST_CPSCM = MAX_N_SAMPS - N_ZPAD_PRE - length(preamble) - length(tx_payload_vec_scm);
+tx_vec_scm = [zeros(1,N_ZPAD_PRE) preamble tx_payload_vec_scm zeros(1,N_ZPAD_POST_CPSCM)];
+
+SCM_ON = 0;
+if(SCM_ON == 1)
+  % Leftover from zero padding:
+  tx_vec_iris = tx_vec_scm.';
+else
+  tx_vec_iris = tx_vec.';
+end
+
 % Scale the Tx vector to +/- 1
 tx_vec_iris = TX_SCALE .* tx_vec_iris ./ max(abs(tx_vec_iris));
 
@@ -343,18 +373,32 @@ for frm_idx = 1:numGoodFrames
     %% Demodulate
     rx_syms = reshape(payload_syms_mat, 1, N_DATA_SYMS);
 
+    % Discard all non single carrier bins, discard 47 of 48 bins
+    rx_syms_scm = downsample(rx_syms, 48);
+
     rx_data = demod_sym(rx_syms ,MOD_ORDER);
+    rx_data_scm = demod_sym(rx_syms_scm, MOD_ORDER);
+
+    % Need to downsample by 64
 
     bit_errs = length(find(dec2bin(bitxor(tx_data, rx_data),8) == '1'));
 
-    ber_SIM = bit_errs/(N_DATA_SYMS * log2(MOD_ORDER));
+    %tx_syms_scm = tx_syms(1, 1:30);
+    bit_errs_scm = length(find(dec2bin(bitxor(tx_data_scm, rx_data_scm),8) == '1'));
 
+    ber_SIM = bit_errs/(N_DATA_SYMS * log2(MOD_ORDER));
+    ber_SIM_scm = bit_errs_scm/(N_DATA_SYMS_SCM * log2(MOD_ORDER));
 
     % EVM & SNR
     % Do yourselves. Calculate EVM and effective SNR:
     evm_mat = abs(payload_syms_mat - tx_syms_mat).^2;
+    evm_mat_scm = abs(rx_syms_scm - tx_syms_scm_pre_upsample).^2;
+
     aevms = mean(evm_mat(:)); % needs to be a scalar
+    aevms_scm = mean(evm_mat_scm(:)); % needs to be a scalar    
+
     snr = 10*log10(1./aevms); % calculate in dB scale.
+    snr_scm = 10*log10(1./aevms_scm); % calculate in dB scale.    
 
 
     %% Plot Results
@@ -444,6 +488,7 @@ for frm_idx = 1:numGoodFrames
         figure(cf); clf;
 
         plot(payload_syms_mat(:),'o','MarkerSize',2, 'color', sec_clr);
+        %plot(rx_syms_scm(:),'o','MarkerSize',2, 'color', sec_clr);        
         axis square; axis(1.5*[-1 1 -1 1]);
         xlabel('Inphase')
         ylabel('Quadrature')
@@ -505,6 +550,7 @@ for frm_idx = 1:numGoodFrames
     %% Calculate Rx stats
 
     sym_errs = sum(tx_data ~= rx_data);
+    sym_errs_scm = sum(tx_data_scm ~= rx_data_scm);    
     bit_errs = length(find(dec2bin(bitxor(tx_data, rx_data),8) == '1'));
     rx_evm   = sqrt(sum((real(rx_syms) - real(tx_syms)).^2 + (imag(rx_syms) - imag(tx_syms)).^2)/(length(SC_IND_DATA) * N_OFDM_SYM));
 

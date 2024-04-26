@@ -56,7 +56,7 @@ APPLY_CFO_CORRECTION    = APPLY_CFO_CORRECTION_EXT;
 %Iris params:
 N_BS_NODE               = 1;
 N_UE                    = 1;
-TX_FRQ                  = 3.55e9;
+TX_FRQ                  = 3.45e9;
 RX_FRQ                  = TX_FRQ;
 ANT_BS                  = 'A';          % SISO: only one antenna supported
 ANT_UE                  = 'A';          % SISO: only one antenna supported

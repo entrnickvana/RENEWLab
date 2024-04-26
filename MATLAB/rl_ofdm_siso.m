@@ -31,7 +31,7 @@
 % RENEW OPEN SOURCE LICENSE: http://renew-wireless.org/license
 % ---------------------------------------------------------------------
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-clear all;
+%clear all;
 close all;
 
 pe = pyenv;
@@ -46,15 +46,15 @@ end
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 DEBUG                   = 0;
 WRITE_PNG_FILES         = 0;            % Enable writing plots to PNG
-PLOT                    = 0;
+PLOT                    = 1;
 FIND_OPTIMAL_GAINS      = 0;            % Evaluates different TX/RX gain combinations and returns the combination that yields the largest number of detected beacons
-SIM_MODE                = 0;            % Enable for AWGN sim, disable to run hardware
+SIM_MODE                = 1;            % Enable for AWGN sim, disable to run hardware
 APPLY_CFO_CORRECTION    = 0;
 
 %Iris params:
 N_BS_NODE               = 1;
 N_UE                    = 1;
-TX_FRQ                  = 3.5475e9;
+TX_FRQ                  = 3.544e9;
 RX_FRQ                  = TX_FRQ;
 ANT_BS                  = 'A';          % SISO: only one antenna supported
 ANT_UE                  = 'A';          % SISO: only one antenna supported

@@ -94,6 +94,7 @@
     - [ ] EVM
     - [ ] SNR
     - [ ] PAPR
+    - [ ] Channel Estimate
       
       
 
