@@ -38,10 +38,10 @@ close all;
 
 pe = pyenv;
 %disp(pe);
-% if pe.Status == 'NotLoaded'
-%     pyversion /usr/bin/python3
-%     py.print() %weird bug where py isn't loaded in an external script
-% end
+ if pe.Status == 'NotLoaded'
+     pyversion /usr/bin/python3
+     py.print() %weird bug where py isn't loaded in an external script
+ end
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Parameters
@@ -50,13 +50,13 @@ DEBUG                   = 0;
 WRITE_PNG_FILES         = 0;            % Enable writing plots to PNG
 PLOT                    = PLOT_EXT;
 FIND_OPTIMAL_GAINS      = 0;            % Evaluates different TX/RX gain combinations and returns the combination that yields the largest number of detected beacons
-SIM_MODE                = 1;            % Enable for AWGN sim, disable to run hardware
+SIM_MODE                = 0;            % Enable for AWGN sim, disable to run hardware
 APPLY_CFO_CORRECTION    = APPLY_CFO_CORRECTION_EXT;
 
 %Iris params:
 N_BS_NODE               = 1;
 N_UE                    = 1;
-TX_FRQ                  = 3.45e9;
+TX_FRQ                  = 3.545e9;
 RX_FRQ                  = TX_FRQ;
 ANT_BS                  = 'A';          % SISO: only one antenna supported
 ANT_UE                  = 'A';          % SISO: only one antenna supported
@@ -222,8 +222,15 @@ else
 
     % Create two Iris node objects:
     tx_direction = 'uplink';      % Options: {'uplink', 'downlink', 'ul-refnode-as-ue'}
-    bs_ids = ["RF3E000722"];
-    ue_ids = ["RF3E000665"];
+%     bs_ids = ["RF3E000722"];
+%     %ue_ids = ["RF3E000665"];
+%     ue_ids = ["RF3E000706"];
+%     hub_id = ["FH4B000003"];
+
+    ue_ids = ["RF3E000706"];
+    %bs_ids = ["RF3E000722"];
+    bs_ids = ["RF3E000654"];
+    %ue_ids = ["RF3E000665"];
     hub_id = ["FH4B000003"];
     ref_ids= [];      % Must have the REF node serial if tx_direction mode is 'ul-refnode-as-ue'
 
@@ -579,8 +586,6 @@ for frm_idx = 1:numGoodFrames
     end
 
     %% Calculate Rx stat
-
-    rx_data_ag
 
     sym_errs = sum(tx_data ~= rx_data);
     sym_errs_scm = sum(tx_data_scm ~= rx_data_scm);    
