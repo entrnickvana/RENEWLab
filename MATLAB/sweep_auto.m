@@ -9,7 +9,7 @@
 
 %TX_GN_EXT_ARR = [70:2:100];
 N_REP = 5;
-TX_GN_EXT_ARR = repelem([70:10:100], 1, N_REP);
+TX_GN_EXT_ARR = repelem([70:10:100+1], 1, N_REP);
 APPLY_CFO_CORRECTION_EXT = 1;
 N_OFDM_SYM_EXT = 30;
 MOD_ORDER_EXT = 16;
@@ -40,8 +40,6 @@ ch_est_arr = [];
 % fprintf('Bit Errors:  %d (of %d total bits)\n', bit_errs, N_DATA_SYMS * log2(MOD_ORDER));
 % fprintf('Avg. EVM: %f%% \n', 100*aevms);
 
-figure;
-hold on;
 for ii = 1:length(TX_GN_EXT_ARR)
     
   TX_GN_EXT = TX_GN_EXT_ARR(ii);
@@ -59,9 +57,8 @@ for ii = 1:length(TX_GN_EXT_ARR)
   papr_arr    = [papr_arr papr];
   ch_est_arr  = [ch_est_arr];
 
-  scatter(snr, bit_errs/N_DATA_SYMS * log2(MOD_ORDER);
-  
 end
-
+figure;
+scatter(snr_arr, bit_errs_arr/N_DATA_SYMS * log2(MOD_ORDER), 'bl*');
 
 
