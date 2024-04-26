@@ -580,8 +580,6 @@ for frm_idx = 1:numGoodFrames
 
     %% Calculate Rx stat
 
-    rx_data_ag
-
     sym_errs = sum(tx_data ~= rx_data);
     sym_errs_scm = sum(tx_data_scm ~= rx_data_scm);    
     bit_errs = length(find(dec2bin(bitxor(tx_data, rx_data),8) == '1'));
