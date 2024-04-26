@@ -12,6 +12,7 @@ N_REP = 5;
 TX_GN_EXT_ARR = repelem([70:10:100+1], 1, N_REP);
 APPLY_CFO_CORRECTION_EXT = 1;
 N_OFDM_SYM_EXT = 30;
+MOD_ORDER_EXT_ARR = [2 4 16];
 MOD_ORDER_EXT = 16;
 N_FRM_EXT = 1;
 PLOT_EXT = 0;
@@ -39,26 +40,55 @@ ch_est_arr = [];
 % fprintf('Sym Errors:  %d (of %d total symbols)\n', sym_errs, N_DATA_SYMS);
 % fprintf('Bit Errors:  %d (of %d total bits)\n', bit_errs, N_DATA_SYMS * log2(MOD_ORDER));
 % fprintf('Avg. EVM: %f%% \n', 100*aevms);
-
-for ii = 1:length(TX_GN_EXT_ARR)
+cnt = 0;
+for ord_idx = 1:length(MOD_ORDER_EXT_ARR)
     
-  TX_GN_EXT = TX_GN_EXT_ARR(ii);
+  MOD_ORDER_EXT  = MOD_ORDER_EXT_ARR(ord_idx);
     
-  rl_ofdm_siso_auto
-  rx_vec_iris_arr = [rx_vec_iris_arr rx_vec_iris];
-  papr = max((abs(rx_vec_iris)).^2)/mean((abs(rx_vec_iris)).^2);
+  for ii = 1:length(TX_GN_EXT_ARR)
 
-  tx_gn_UE_arr = [tx_gn_UE_arr TX_GN_EXT];  
-  m_order_arr = [m_order_arr MOD_ORDER_EXT];
-  sym_err_arr = [sym_err_arr sym_errs];
-  bit_err_arr = [bit_err_arr bit_errs];
-  evm_arr     = [evm_arr aevms];
-  snr_arr     = [snr_arr snr];
-  papr_arr    = [papr_arr papr];
-  ch_est_arr  = [ch_est_arr];
+    cnt = cnt + 1;
+      
+    TX_GN_EXT = TX_GN_EXT_ARR(ii);
+      
+    rl_ofdm_siso_auto
+    rx_vec_iris_arr = [rx_vec_iris_arr rx_vec_iris];
+    papr = max((abs(rx_vec_iris)).^2)/mean((abs(rx_vec_iris)).^2);
+  
+    tx_gn_UE_arr = [tx_gn_UE_arr TX_GN_EXT];  
+    m_order_arr = [m_order_arr MOD_ORDER_EXT];
+    sym_err_arr = [sym_err_arr sym_errs];
+    bit_err_arr = [bit_err_arr bit_errs];
+    evm_arr     = [evm_arr aevms];
+    snr_arr     = [snr_arr snr];
+    papr_arr    = [papr_arr papr];
+    ch_est_arr  = [ch_est_arr];
 
+    if(ord_idx == 1)
+        scatter(snr_arr(cnt), bit_err_arr(cnt)/N_DATA_SYMS * log2(MOD_ORDER), 'r*'); hold on;
+    elseif(ord_idx == 2)
+        scatter(snr_arr(cnt), bit_err_arr(cnt)/N_DATA_SYMS * log2(MOD_ORDER), 'bl*'); hold on;
+    elseif(ord_idx == 3)
+        scatter(snr_arr(cnt), bit_err_arr(cnt)/N_DATA_SYMS * log2(MOD_ORDER), 'b*'); hold on;
+    elseif(ord_idx == 4)
+        scatter(snr_arr(cnt), bit_err_arr(cnt)/N_DATA_SYMS * log2(MOD_ORDER), 'b*'); hold on;
+    end
+    
+  end
+
+  %if(ord_idx == 1)
+  %    scatter(snr_arr, bit_err_arr/N_DATA_SYMS * log2(MOD_ORDER), 'r*'); hold on;
+  %elseif(ord_idx == 2)
+  %    scatter(snr_arr, bit_err_arr/N_DATA_SYMS * log2(MOD_ORDER), 'bl*'); hold on;
+  %elseif(ord_idx == 3)
+  %    scatter(snr_arr, bit_err_arr/N_DATA_SYMS * log2(MOD_ORDER), 'b*'); hold on;
+  %elseif(ord_idx == 4)
+  %    scatter(snr_arr, bit_err_arr/N_DATA_SYMS * log2(MOD_ORDER), 'b*'); hold on;
+  %end
+  
+  
 end
 figure;
-scatter(snr_arr, bit_errs_arr/N_DATA_SYMS * log2(MOD_ORDER), 'bl*');
+scatter(snr_arr, bit_err_arr/N_DATA_SYMS * log2(MOD_ORDER), 'bl*');
 
 
