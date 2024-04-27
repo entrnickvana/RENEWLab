@@ -94,9 +94,9 @@ scatter(snr_arr, 10*log10(bit_err_arr/N_DATA_SYMS * log2(MOD_ORDER)), 'bl*');
 figure;
 
 loop_idxs = 1:length(TX_GN_EXT_ARR);
-scatter(snr_arr(1*loop_idxs), 10*log10(bit_err_arr(1*loop_idxs)/N_DATA_SYMS * log2(2)), 'r*');
-scatter(snr_arr(2*loop_idxs), 10*log10(bit_err_arr(2*loop_idxs)/N_DATA_SYMS * log2(4)), 'bl*');
-scatter(snr_arr(3*loop_idxs), 10*log10(bit_err_arr(3*loop_idxs)/N_DATA_SYMS * log2(16)), 'b*');
+scatter(snr_arr(1*loop_idxs), 10*log10(bit_err_arr(1*loop_idxs)/N_DATA_SYMS * log2(16)), 'r*'); hold on;
+scatter(snr_arr(2*loop_idxs), 10*log10(bit_err_arr(2*loop_idxs)/N_DATA_SYMS * log2(16)), 'bl*');
+scatter(snr_arr(3*loop_idxs), 10*log10(bit_err_arr(3*loop_idxs)/N_DATA_SYMS * log2(16)), 'g*');
 %scatter(snr_arr(4*loop_idxs), 10*log10(bit_err_arr(4*loop_idxs)/N_DATA_SYMS * log2(MOD_ORDER)), 'g*)');
 
 

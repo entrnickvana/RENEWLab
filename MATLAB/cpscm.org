@@ -24,15 +24,15 @@
   13) [ ] Fix print output to refect accurate SNR
 ** TODO SISO Captures
   1) [ ] Measure noise floor
-  2) [ ] Create output measure for PAPR
-     1) [ ] PAPR=max((abs(x)).^2)/mean((abs(x)).^2)
-  3) [ ] Plot PSD
-  4) [ ] Calculate PAPR
-     1) [ ] PAPR=max((abs(x)).^2)/mean((abs(x)).^2)
-  5) [-] Sweep SISO Power for BER OFDM
-     + [ ] BPSK
-     + [ ] QPSK
-     + [X] 16QAM
+  2) [X] Create output measure for PAPR
+     1. [X] PAPR=max((abs(x)).^2)/mean((abs(x)).^2)
+  3) [X] Plot PSD
+  4) [X] Calculate PAPR
+     1. [X] PAPR=max((abs(x)).^2)/mean((abs(x)).^2)
+  5) [X] Sweep SISO Power for BER OFDM
+     1. [X] BPSK
+     2. [X] QPSK
+     3. [X] 16QAM
 
   6) [ ] Sweep SISO Power for BER CPSCM
      - [ ] BPSK
@@ -55,6 +55,26 @@
   3) [ ] Ask about potential sampling rate changes
   4) [ ] 
 * TODO CPSCM Captures
+  1) [ ] Measure noise floor
+  2) [X] Create output measure for PAPR
+     1. [X] PAPR=max((abs(x)).^2)/mean((abs(x)).^2)
+  3) [X] Plot PSD
+  4) [X] Calculate PAPR
+     1. [X] PAPR=max((abs(x)).^2)/mean((abs(x)).^2)
+  5) [X] Sweep SISO Power for BER OFDM
+     1. [X] BPSK
+     2. [X] QPSK
+     3. [X] 16QAM
+
+  6) [ ] Sweep SISO Power for BER CPSCM
+     - [ ] BPSK
+     - [ ] QPSK
+     - [ ] 16QAM
+  7) [X] Sweep SISO frame symbol count to 47	   
+  8) [ ] Ask about potential sampling rate changes 
+  9) [X] Show phase offset			   
+  10) [ ] Address phase offset                      
+
 ** TODO SISO Captures
 ** TODO MIMO Captures
 * TODO Write Final Paper
