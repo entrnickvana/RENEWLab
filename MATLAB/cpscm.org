@@ -9,9 +9,9 @@
 
   5) [X] Phase correct using LTS rather than adjacent carrier pilots, !!! THIS DOES NOT WORK !!!
   6) [ ] Remove Zeros frame IQ scatter plot
-  7) [ ] Fix output to show
-     - [ ] correct symbols, bytes
-     - [ ] correct RX vect plot
+  7) [-] Fix output to show
+     - [X] correct symbols, bytes
+     - [X] correct RX vect plot
      - [ ] 
   8) [ ] Capture noise floor
   9) [ ] Sweep Power for BER
@@ -24,8 +24,10 @@
   13) [ ] Fix print output to refect accurate SNR
 ** TODO SISO Captures
   1) [ ] Measure noise floor
-  2) [X] Create output measure for PAPR
+  2) [-] Create output measure for PAPR
      1. [X] PAPR=max((abs(x)).^2)/mean((abs(x)).^2)
+     2. [ ] High PAPR in an OFDM system has two major drawbacks; in band distortion and out of band
+            distortion
   3) [X] Plot PSD
   4) [X] Calculate PAPR
      1. [X] PAPR=max((abs(x)).^2)/mean((abs(x)).^2)
@@ -41,7 +43,17 @@
   7) [X] Sweep SISO frame symbol count to 47	   
   8) [ ] Ask about potential sampling rate changes 
   9) [X] Show phase offset			   
-  10) [ ] Address phase offset                      
+  10) [ ] Address phase offset
+
+** TODO PROS/CONS
+  - [ ] is PAPR really better
+  - [ ] How does the setup at powder compare to actual  IEEE
+  - [ ] How much tranmsission power was used on powder transmissions
+  - [ ] Distance between antennas
+  - [ ] Is flat fading an issue?, Do we need reflectors?, currently mostly a line of sight path?
+  - [ ] RMS Delay Spread model vs 
+    
+    
     
 ** TODO MIMO SIM
   1) [ ] Create output measure for PAPR
@@ -99,6 +111,85 @@
  |                                         |                                           |                         |     |     |     |     |
  |                                         |                                           |                         |     |     |     |     |
 
+
+|          | Frame Interval | Order | 2 | 4 | 16 | 64 |
+|----------+----------------+-------+---+---+----+----|
+| Waveform |                |       |   |   |    |    |
+|----------+----------------+-------+---+---+----+----|
+| OFDM     |                |       |   |   |    |    |
+|          | FRAME          |       |   |   |    |    |
+|          | PREAMBLE       |       |   |   |    |    |
+|          | PAYLOAD        |       |   |   |    |    |
+|          |                |       |   |   |    |    |
+|          |                |       |   |   |    |    |
+|----------+----------------+-------+---+---+----+----|
+| CP-SCM   |                |       |   |   |    |    |
+|          | FRAME          |       |   |   |    |    |
+|          | PREAMBLE       |       |   |   |    |    |
+|          | PAYLOAD        |       |   |   |    |    |
+|          |                |       |   |   |    |    |
+
+
+| PAPR_ofdm:          | 8.7609 |
+| PAPR_single:        | 1.8000 |
+| PAPR_double:        | 3.8293 |
+| PAPR_double_offset: | 3.6000 |
+
+
+CPSCM_FRAME_PAPR_2: 46.3775
+CPSCM_FRAME_PAYLOAD_2: 9.3417
+CPSCM_FRAME_PRE_2: 2.0729
+CPSCM_FRAME_PAPR_4: 41.1860
+CPSCM_FRAME_PAYLOAD_4: 7.6195
+CPSCM_FRAME_PRE_4: 2.0729
+CPSCM_FRAME_PAPR_16: 40.4613
+CPSCM_FRAME_PAYLOAD_16: 7.0668
+CPSCM_FRAME_PRE_16: 2.0729
+CPSCM_FRAME_PAPR_16: 40.8953
+CPSCM_FRAME_PAYLOAD_16: 7.5488
+CPSCM_FRAME_PRE_16: 2.0729
+OFDM_FRAME_PAPR_2: 9.0833
+OFDM_FRAME_PAYLOAD_2: 5.9806
+OFDM_FRAME_PRE_2: 2.0729
+OFDM_FRAME_PAPR_4: 10.0730
+OFDM_FRAME_PAYLOAD_4: 6.3021
+OFDM_FRAME_PRE_4: 2.0729
+OFDM_FRAME_PAPR_16: 16.0110
+OFDM_FRAME_PAYLOAD_16: 10.0076
+OFDM_FRAME_PRE_16: 2.0729
+OFDM_FRAME_PAPR_64: 14.5558
+OFDM_FRAME_PAYLOAD_64: 9.0905
+OFDM_FRAME_PRE_64: 2.0729
+
+
+CPSCM_FRAME_PAPR_2: 46.3775
+CPSCM_FRAME_PAYLOAD_2: 9.3417
+CPSCM_FRAME_PRE_2: 2.0729
+CPSCM_FRAME_PAPR_4: 41.1860
+CPSCM_FRAME_PAYLOAD_4: 7.6195
+CPSCM_FRAME_PRE_4: 2.0729
+CPSCM_FRAME_PAPR_16: 40.4613
+CPSCM_FRAME_PAYLOAD_16: 7.0668
+CPSCM_FRAME_PRE_16: 2.0729
+CPSCM_FRAME_PAPR_16: 40.8953
+CPSCM_FRAME_PAYLOAD_16: 7.5488
+CPSCM_FRAME_PRE_16: 2.0729
+OFDM_FRAME_PAPR_2: 9.0833
+OFDM_FRAME_PAYLOAD_2: 5.9806
+OFDM_FRAME_PRE_2: 2.0729
+OFDM_FRAME_PAPR_4: 10.0730
+OFDM_FRAME_PAYLOAD_4: 6.3021
+OFDM_FRAME_PRE_4: 2.0729
+OFDM_FRAME_PAPR_16: 16.0110
+OFDM_FRAME_PAYLOAD_16: 10.0076
+OFDM_FRAME_PRE_16: 2.0729
+OFDM_FRAME_PAPR_64: 14.5558
+OFDM_FRAME_PAYLOAD_64: 9.0905
+OFDM_FRAME_PRE_64: 2.0729
+
+
+
+ 
 
 * TODO Thursday
   - [ ] Check if cpscm is working

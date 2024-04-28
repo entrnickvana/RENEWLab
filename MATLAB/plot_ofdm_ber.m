@@ -7,7 +7,7 @@
 %PAPR
 %Channel Estimate
 
-% close all;
+close all;
 clear all;
 
 % ==================== OFDM SWEEP =====================================
